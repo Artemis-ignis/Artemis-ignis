@@ -4,6 +4,12 @@ Full-stack engineer using AI as a tool: TypeScript/Python fixes, automation, CI 
 
 I build small, verifiable fixes for open-source projects and developer workflows. The work I like most is practical: reproduce the issue, keep the diff narrow, run the checks, and leave reviewers with clear validation notes.
 
+## Small services
+
+- [CI Failure Triage - 24h Developer Debug Note](https://ko-fi.com/artemisignis): send one failed CI log or PR link and I will return a concise debugging note with likely cause, suspicious files or commands, one recommended fix, and a verification step.
+- Best fit: GitHub Actions, TypeScript, Python, lint, test, or build failures where a focused second pair of eyes would save time.
+- Scope: diagnosis and written guidance only. No secrets, private credentials, deployment, broad rewrites, or security testing.
+
 ## Current focus
 
 - Full-stack TypeScript/React and Python tooling
