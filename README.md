@@ -1,8 +1,8 @@
 # Artemis-ignis
 
-I build small, verifiable fixes for open-source projects: TypeScript/Python apps, automation scripts, CI failures, docs, and developer tooling.
+Full-stack engineer using AI as a tool: TypeScript/Python fixes, automation, CI triage, docs, and careful PR review.
 
-I like boring proof: reproduce the issue, keep the diff narrow, run the checks, and leave reviewers with clear validation notes.
+I build small, verifiable fixes for open-source projects and developer workflows. The work I like most is practical: reproduce the issue, keep the diff narrow, run the checks, and leave reviewers with clear validation notes.
 
 ## Current focus
 
