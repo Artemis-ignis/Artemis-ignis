@@ -1,46 +1,52 @@
-﻿# Artemis-ignis
-
-<!-- ARTEMIS-IGNIS-BRANDING:START -->
+﻿<!-- ARTEMIS-IGNIS-TOP:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-banner.png" alt="Artemis-Ignis banner" width="100%" />
+  <img src="docs/assets/artemis-ignis-emblem-top.jpg" alt="Artemis-Ignis emblem" width="420" />
 </p>
+<!-- ARTEMIS-IGNIS-TOP:END -->
 
+# Artemis-Ignis
+
+<!-- ARTEMIS-IGNIS-BADGE-BAR:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-emblem.png" alt="Artemis-Ignis emblem" width="320" />
+  <img alt="License" src="https://img.shields.io/github/license/=for-the-badge&label=License&color=111111" />
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/=for-the-badge&label=Last%20Commit&color=111111" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/=for-the-badge&label=Stars&color=111111" />
+  <img alt="Forks" src="https://img.shields.io/github/forks/=for-the-badge&label=Forks&color=111111" />
 </p>
-<!-- ARTEMIS-IGNIS-BRANDING:END -->
+<!-- ARTEMIS-IGNIS-BADGE-BAR:END -->
 
-Full-stack engineer using AI as a tool: TypeScript/Python fixes, automation, CI triage, docs, and careful PR review.
+[한국어 프로필](README.ko.md)
 
-I build small, verifiable fixes for open-source projects and developer workflows. The work I like most is practical: reproduce the issue, keep the diff narrow, run the checks, and leave reviewers with clear validation notes.
+I build local-first AI tools, automation utilities, and operator-focused workspaces with a bias toward practical execution: inspect the system, make the smallest useful change, verify it, and leave the next person less blocked.
 
-## Small services
+## Focus Areas
 
-- [CI Failure Triage - 24h Developer Debug Note](https://ko-fi.com/artemisignis): send one failed CI log or PR link and I will return a concise debugging note with likely cause, suspicious files or commands, one recommended fix, and a verification step.
-- Best fit: GitHub Actions, TypeScript, Python, lint, test, or build failures where a focused second pair of eyes would save time.
-- Scope: diagnosis and written guidance only. No secrets, private credentials, deployment, broad rewrites, or security testing.
+- Local AI workspaces and orchestration interfaces.
+- Windows productivity automation and Click to Do-style tooling.
+- TypeScript, Python, AutoHotkey, and pragmatic full-stack repair work.
+- GitHub-ready documentation, CI triage, and careful code review.
 
-## Current focus
+## Featured Work
 
-- Full-stack TypeScript/React and Python tooling
-- GitHub Actions, CI triage, test repair, and release hygiene
-- Automation that removes manual steps without hiding the reasoning
-- Open-source maintenance PRs with focused scope and reproducible verification
+- [Artemis Orchestration App](https://github.com/Artemis-ignis/artemis-orchestration-app): local workspace for chat, files, orchestration, logs, and runtime state.
+- [Open Click to Do](https://github.com/Artemis-ignis/open-click-to-do): open-source Win+Q style OCR, copy, and translation overlay for Windows.
+- [Copilot AI Memory Saver](https://github.com/Artemis-ignis/copilot-ai-memory-saver): keeps Windows AI workloads from sitting in RAM when idle.
+- [AgentDeck RPG](https://github.com/Artemis-ignis/agentdeck-rpg): local-first AI agent cockpit for maintainers.
 
-## How I work with AI
+## Operating Principles
 
-I use AI as a pair-programming and research accelerator, not as a substitute for review. Before I submit work, I check the scope, read the code path, run the relevant tests, and keep sensitive data out of public repos.
+- Verify before claiming success.
+- Keep interfaces sharp, readable, and purposeful.
+- Preserve user work and avoid destructive shortcuts.
+- Favor small, reversible changes backed by real checks.
 
-## Recent work
+## Links
 
-- Memanto examples: LangGraph memory flow and Claude Code skills bridge
-- Dokploy template validation
-- GSM evaluator parsing fix
-- Requestly UI/devtools exploration
+- GitHub: [Artemis-ignis](https://github.com/Artemis-ignis)
+- Support: [Ko-fi](https://ko-fi.com/artemisignis)
 
-## Stack
-
-TypeScript, React, Node.js, Python, GitHub Actions, Playwright, Vite, docs, CI, automation.
-
-If you want a small bug fixed, a failing check explained, or a PR made easier to review, that is the kind of work I enjoy.
-
+<!-- ARTEMIS-IGNIS-BADGES:START -->
+<p align="center">
+  <img src="docs/assets/artemis-ignis-badges-footer.jpg" alt="Artemis-Ignis platform and license badges" width="520" />
+</p>
+<!-- ARTEMIS-IGNIS-BADGES:END -->
