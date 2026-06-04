@@ -8,10 +8,7 @@
 
 <!-- ARTEMIS-IGNIS-BADGE-BAR:START -->
 <p align="center">
-  <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-2563eb?style=for-the-badge" />
-  <img alt=".NET 8" src="https://img.shields.io/badge/.NET-8-512bd4?style=for-the-badge" />
-  <img alt="AutoHotkey v2" src="https://img.shields.io/badge/AutoHotkey-v2-059669?style=for-the-badge" />
-  <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-111827?style=for-the-badge" />
+  <img src="docs/assets/profile-badge-bar.svg" alt="Windows 10 and 11, .NET 8, AutoHotkey v2, MIT license" width="620" />
 </p>
 <!-- ARTEMIS-IGNIS-BADGE-BAR:END -->
 
