@@ -1,4 +1,16 @@
-﻿# Artemis-Ignis
+<!-- ARTEMIS-IGNIS-TOP:START -->
+<p align="center">
+  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260605" alt="Artemis-Ignis emblem" width="420" />
+</p>
+<!-- ARTEMIS-IGNIS-TOP:END -->
+
+# Artemis-Ignis
+
+<!-- ARTEMIS-IGNIS-BADGE-BAR:START -->
+<p align="center">
+  <img src="docs/assets/profile-badge-bar.svg?v=20260605" alt="Windows 10 and 11, .NET 8, AutoHotkey v2, MIT license" width="620" />
+</p>
+<!-- ARTEMIS-IGNIS-BADGE-BAR:END -->
 
 [English profile](README.md)
 
@@ -17,3 +29,9 @@
 - [Open Click to Do](https://github.com/Artemis-ignis/open-click-to-do): Windows용 OCR, 복사, 번역 오버레이
 - [Copilot AI Memory Saver](https://github.com/Artemis-ignis/copilot-ai-memory-saver): 유휴 AI 워크로드 메모리 점유를 줄이는 도구
 - [AgentDeck RPG](https://github.com/Artemis-ignis/agentdeck-rpg): 유지보수자를 위한 로컬 우선 AI 에이전트 콕핏
+
+<!-- ARTEMIS-IGNIS-BADGES:START -->
+<p align="center">
+  <img src="docs/assets/artemis-ignis-badges-footer.jpg?v=20260605" alt="Artemis-Ignis platform and license badges" width="520" />
+</p>
+<!-- ARTEMIS-IGNIS-BADGES:END -->
