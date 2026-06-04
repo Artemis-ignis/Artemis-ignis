@@ -8,10 +8,10 @@
 
 <!-- ARTEMIS-IGNIS-BADGE-BAR:START -->
 <p align="center">
-  <img alt="License" src="https://img.shields.io/github/license/Artemis-ignis/Artemis-ignis?style=for-the-badge&label=License&color=111111" />
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/Artemis-ignis/Artemis-ignis?style=for-the-badge&label=Last%20Commit&color=111111" />
-  <img alt="Stars" src="https://img.shields.io/github/stars/Artemis-ignis/Artemis-ignis?style=for-the-badge&label=Stars&color=111111" />
-  <img alt="Forks" src="https://img.shields.io/github/forks/Artemis-ignis/Artemis-ignis?style=for-the-badge&label=Forks&color=111111" />
+  <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-2563eb?style=for-the-badge" />
+  <img alt=".NET 8" src="https://img.shields.io/badge/.NET-8-512bd4?style=for-the-badge" />
+  <img alt="AutoHotkey v2" src="https://img.shields.io/badge/AutoHotkey-v2-059669?style=for-the-badge" />
+  <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-111827?style=for-the-badge" />
 </p>
 <!-- ARTEMIS-IGNIS-BADGE-BAR:END -->
 
