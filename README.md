@@ -1,4 +1,14 @@
-# Artemis-ignis
+﻿# Artemis-ignis
+
+<!-- ARTEMIS-IGNIS-BRANDING:START -->
+<p align="center">
+  <img src="docs/assets/artemis-ignis-banner.png" alt="Artemis-Ignis banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="docs/assets/artemis-ignis-emblem.png" alt="Artemis-Ignis emblem" width="320" />
+</p>
+<!-- ARTEMIS-IGNIS-BRANDING:END -->
 
 Full-stack engineer using AI as a tool: TypeScript/Python fixes, automation, CI triage, docs, and careful PR review.
 
@@ -33,3 +43,4 @@ I use AI as a pair-programming and research accelerator, not as a substitute for
 TypeScript, React, Node.js, Python, GitHub Actions, Playwright, Vite, docs, CI, automation.
 
 If you want a small bug fixed, a failing check explained, or a PR made easier to review, that is the kind of work I enjoy.
+
