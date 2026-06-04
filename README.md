@@ -1,6 +1,6 @@
 ﻿<!-- ARTEMIS-IGNIS-TOP:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260605" alt="Artemis-Ignis emblem" width="420" />
+  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260605-profile-refresh" alt="Artemis-Ignis emblem" width="420" />
 </p>
 <!-- ARTEMIS-IGNIS-TOP:END -->
 
@@ -8,7 +8,7 @@
 
 <!-- ARTEMIS-IGNIS-BADGE-BAR:START -->
 <p align="center">
-  <img src="docs/assets/profile-badge-bar.svg?v=20260605" alt="Windows 10 and 11, .NET 8, AutoHotkey v2, MIT license" width="620" />
+  <img src="docs/assets/profile-badge-bar.svg?v=20260605-profile-refresh" alt="Windows 10 and 11, .NET 8, AutoHotkey v2, MIT license" width="620" />
 </p>
 <!-- ARTEMIS-IGNIS-BADGE-BAR:END -->
 
@@ -44,6 +44,6 @@ I build local-first AI tools, automation utilities, and operator-focused workspa
 
 <!-- ARTEMIS-IGNIS-BADGES:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-badges-footer.jpg?v=20260605" alt="Artemis-Ignis platform and license badges" width="520" />
+  <img src="docs/assets/artemis-ignis-badges-footer.jpg?v=20260605-profile-refresh" alt="Artemis-Ignis platform and license badges" width="520" />
 </p>
 <!-- ARTEMIS-IGNIS-BADGES:END -->
