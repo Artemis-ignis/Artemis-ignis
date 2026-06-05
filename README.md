@@ -1,16 +1,10 @@
 ﻿<!-- ARTEMIS-IGNIS-TOP:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260605-profile-refresh" alt="Artemis-Ignis emblem" width="420" />
+  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260605-top-emblem" alt="Artemis-Ignis emblem" width="420" />
 </p>
 <!-- ARTEMIS-IGNIS-TOP:END -->
 
 # Artemis-Ignis
-
-<!-- ARTEMIS-IGNIS-BADGE-BAR:START -->
-<p align="center">
-  <img src="docs/assets/profile-badge-bar.svg?v=20260605-profile-refresh" alt="Windows 10 and 11, .NET 8, AutoHotkey v2, MIT license" width="620" />
-</p>
-<!-- ARTEMIS-IGNIS-BADGE-BAR:END -->
 
 [한국어 프로필](README.ko.md)
 
@@ -42,8 +36,8 @@ I build local-first AI tools, automation utilities, and operator-focused workspa
 - GitHub: [Artemis-ignis](https://github.com/Artemis-ignis)
 - Support: [Ko-fi](https://ko-fi.com/artemisignis)
 
-<!-- ARTEMIS-IGNIS-BADGES:START -->
+<!-- ARTEMIS-IGNIS-FOOTER-BANNER:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-badges-footer.jpg?v=20260605-profile-refresh" alt="Artemis-Ignis platform and license badges" width="520" />
+  <img src="docs/assets/artemis-ignis-footer-banner.png?v=20260605-footer-banner" alt="Artemis-Ignis banner" width="100%" />
 </p>
-<!-- ARTEMIS-IGNIS-BADGES:END -->
+<!-- ARTEMIS-IGNIS-FOOTER-BANNER:END -->
