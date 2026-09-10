@@ -98,3 +98,9 @@ I am seeking entry-level PM/PO and service-planning opportunities in AI, commerc
 [Read my resume →](docs/resume.en.md)
 
 <sub>Personal projects demonstrate planning, AI-assisted implementation and review. User growth, revenue and conversion will be added when measured.</sub>
+
+## Product briefs
+
+Reconstructed for this portfolio on September 10, 2026, using existing product screens and records. These describe requirements, scope reasoning and proposed validation, not historical PRDs or completed user studies.
+
+[DdakDama](docs/cases/ddakdama-brief.md) · [Pictory](docs/cases/pictory-brief.md) · [Clunk](docs/cases/clunk-brief.md) — Korean
