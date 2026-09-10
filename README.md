@@ -1,107 +1,80 @@
 <!-- ARTEMIS-IGNIS-TOP:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260605-top-emblem" alt="Artemis-Ignis emblem" width="420" />
+  <img src="https://avatars.githubusercontent.com/u/269841952?v=4" alt="박준성 GitHub 프로필 사진" width="128" />
+</p>
+<p align="center">
+  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260910-pm-profile" alt="Artemis-Ignis product portfolio emblem" width="420" />
 </p>
 <!-- ARTEMIS-IGNIS-TOP:END -->
 
-<h1 align="center">Artemis-Ignis</h1>
-<p align="center"><strong>AI Product Manager · AI Product Builder</strong></p>
+<h1 align="center">박준성 · Artemis-Ignis</h1>
+<p align="center"><strong>AI Product Manager · Product Builder</strong></p>
 <p align="center">
-I turn ambiguous user problems into testable product hypotheses, scope the smallest useful end-to-end product, and ship working AI experiences that can be verified in the real world.
+사용자 문제를 정의하고, 가장 작은 검증 가능한 제품을 설계하고, 실제 파일·브라우저·사용자 흐름으로 품질을 확인합니다.
 </p>
 
 <p align="center">
-  <a href="README.ko.md">한국어 프로필</a>
+  <a href="docs/resume.ko.md">이력서</a> ·
+  <a href="README.en.md">English profile</a> ·
+  <a href="https://clunk.games">Clunk live product</a>
 </p>
 
-## Product lens
+## 한 줄 소개
 
-I approach product work through three questions:
+모호한 사용자 문제를 실행 가능한 요구사항과 검증 기준으로 바꾸는 신입·주니어 PM/PO입니다. AI 제품을 직접 기획하고 구현하면서 문제 정의, 우선순위, 사용자 흐름, 수용 기준, 출시 전 검증을 하나의 사이클로 연결해 왔습니다.
 
-1. **Desirability** — What real user behavior or friction are we trying to change?
-2. **Viability** — Can the product create enough value to support a sustainable business?
-3. **Feasibility** — Can we actually build, operate, verify, and improve it with the resources we have?
+## 대표 제품 사례
 
-My work usually starts with problem framing and ends with a working product, release criteria, and evidence — not just a feature list or a mockup.
-
-## Selected product work
-
-| Product | Problem | Product / PM work | Status |
+| 제품 | 사용자의 문제 | 제가 한 일 | 공개 범위 |
 | --- | --- | --- | --- |
-| **[Clunk](https://github.com/Artemis-ignis/clunk)** · [Live](https://clunk.games) | Game creators move between generation tools, asset inspection, marketplaces, and engine integration with little shared evidence about whether an asset is actually usable. | Designed an end-to-end asset workflow across creation, validation, marketplace discovery, and agent integration. Maintains a PM portfolio with market assumptions, asset audits, copy audits, product boundaries, quality gates, and evidence-based release decisions. | **Live product / active development** |
-| **[DdakDama](https://github.com/Artemis-ignis/ddakdama)** | AI can recommend what to buy, but users still have to search every item again, interpret package quantities, compare candidates, and rebuild the cart manually. | Designed a human-in-the-loop flow from natural-language shopping list → candidate review → verified cart handoff. Explicitly separates product identity, package size, requested quantity, and final user approval. | **Public product prototype** |
-| **[Pictory](https://github.com/Artemis-ignis/pictory-apps-in-toss)** | Photo cleanup is repetitive, but image classification is privacy-sensitive and difficult to monetize without creating trust problems. | Designed an Apps in Toss mini-app around local-first handling, privacy boundaries, sensitive-image treatment, usage limits, rewarded access, subscription entitlement, and release-readiness checks. | **Apps in Toss product build** |
-| **[Artemis Orchestration App](https://github.com/Artemis-ignis/artemis-orchestration-app)** | Multi-model and agent workflows become hard to understand when chat, files, routing, runtime state, and execution logs live in different places. | Built a local-first operator workspace that brings those surfaces together and makes orchestration visible and reviewable. | **Open-source / active** |
+| **[딱담아](https://github.com/Artemis-ignis/ddakdama)** | 자연어 장보기 목록을 실제 상품과 장바구니로 옮기는 과정이 번거롭습니다. | 목록 해석 → 상품 후보 비교 → 수량·포장 단위 확인 → 사용자가 승인한 장바구니 전달 흐름을 설계했습니다. | 공개 저장소 |
+| **[픽토리](https://github.com/Artemis-ignis/pictory-apps-in-toss)** | 사진 정리는 반복적이고, 이미지 분류는 개인정보·신뢰·비용 문제가 함께 발생합니다. | 로컬 우선 처리, 민감 이미지 보호, 사용량 제한, 보상형 접근, 구독 권한, 출시 검증 기준을 제품 범위에 포함했습니다. | 공개 저장소 |
+| **Clunk** | 게임 제작자는 에셋을 생성한 뒤에도 실제 파일 규격·사용 가능성·검증 근거를 따로 확인해야 합니다. | 생성 → 검사 → 마켓 탐색 → 다운로드·에이전트 연동까지의 제품 방향과 품질 경계를 설계하고, 브라우저와 실제 파일로 검수했습니다. | 비공개 제품 사례 · [라이브 서비스](https://clunk.games) |
+| **[clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)** | 모델의 미리보기만으로는 GLB/GLTF가 실제 프로젝트에 들어갈 수 있는지 판단하기 어렵습니다. | 실제 바이트 검사, 원본 보존, 별도 출력, 재검사, Passport 증명 흐름을 제품 안전성과 함께 정리했습니다. | 공개 오픈소스 |
 
-### Clunk — PM case study
+Clunk 소스 저장소는 비공개입니다. 공개 프로필에는 저장소 URL을 노출하지 않고, 라이브 제품과 공개 clunk-mcp에서 확인 가능한 범위만 소개합니다.
 
-Clunk is the clearest example of how I work as a product manager and builder.
+## 제가 보여주는 PM 역량
 
-Instead of treating “AI game assets” as a generation feature, I reframed the product around a larger job: **help a creator move from an idea to an asset they can actually trust and put into a game.**
+- **문제 정의**: 사용자 과업과 불편을 기능 목록보다 먼저 정리합니다.
+- **우선순위**: 가장 작은 End-to-End 범위를 정하고, 다음 의사결정에 필요한 근거를 남깁니다.
+- **실행**: AI 도구와 구현 이해도를 활용해 기획안이 실제 동작하는 흐름까지 연결합니다.
+- **검증**: 자동 검사 통과, 실제 화면 렌더, 사람이 승인한 품질을 서로 다른 상태로 기록합니다.
+- **커뮤니케이션**: 요구사항·완료 기준·미검증 항목을 문서로 분리해 협업자가 같은 맥락을 보게 합니다.
 
-The repository includes a dedicated **[PM portfolio](https://github.com/Artemis-ignis/clunk/tree/main/docs/portfolio)** covering the problem, product decisions, market assumptions, quality audits, AI failure cases, operating constraints, and what was changed after verification.
+## 일하는 방식
 
-## How I work
+문제 관찰 → 문제 정의 → 가설 수립 → MVP 범위 설정 → 구현·프로토타이핑 → 실제 근거로 검증 → 학습과 다음 우선순위 결정
 
-```text
-Observe behavior
-    ↓
-Define the problem
-    ↓
-Form a product hypothesis
-    ↓
-Prioritize the smallest end-to-end scope
-    ↓
-Build / prototype
-    ↓
-Verify with real evidence
-    ↓
-Document gaps, learn, iterate
-```
+AI 제품에서는 모델의 불확실성, 사람의 최종 검토, 개인정보, 도구 권한, 실패 시 복구 방식까지 제품 결정으로 다룹니다.
 
-I care about clear **problem statements, JTBD, user journeys, MVP scope, acceptance criteria, failure boundaries, release checklists, and evidence-based iteration**. For AI products, I also treat model uncertainty, human review, privacy, tool permissions, and fallback behavior as product decisions — not implementation details to postpone.
+## 경험 스냅샷
 
-## Product capabilities
+| 시기 | 경험 | PM 관점의 근거 |
+| --- | --- | --- |
+| 2022.06–2023.05 | 메타체인 · 게임 콘텐츠 기획·마케팅 | NFT·DAO·P2E 시장 조사, 내부 교육 자료, 투자 제안서, 콘텐츠·사이트·Discord 운영 자료 작성 |
+| 2024.08–2024.09 | LPK Robotics · 설계 인턴 | 2D 도면, 3D 모델링, 어셈블리 간섭 검토를 통해 현장 제조 제약과 요구사항을 관찰 |
+| 현재 | Clunk · 개인 제품 프로젝트 | 제품 방향, 요구사항, 품질 기준, 브라우저 흐름과 실제 파일 검증을 직접 설계·검수 |
 
-**Product discovery & strategy**
-- Problem framing, 5 Whys, JTBD, persona and user-journey design
-- Lean Canvas, PSF/PMF thinking, value proposition and business-model hypotheses
-- MVP scoping, prioritization, product requirements, acceptance criteria
+## 기술과 도구
 
-**AI product design**
-- LLM and agent workflows, orchestration, MCP, tool-using products
-- Human-in-the-loop interaction, failure recovery, verification and safety boundaries
-- Translating model capability into a product flow users can understand and control
+TypeScript · React · Node.js · Python · TypeScript 기반 AI 도구 연동 · LLM/Agent/MCP 제품 흐름 · Playwright · GitHub Actions · Notion · Figma · 문서화 · 제품 QA
 
-**Execution & build literacy**
-- TypeScript, React, Node.js, Python, Cloudflare, GitHub Actions
-- Product QA, release gates, CI checks, documentation and reproducible verification
-- Enough implementation depth to prototype directly and collaborate with engineering at the system level
+## 검증 원칙
 
-## Background
+실제로 수행한 일, 이번에 세운 가설, 입사 후 계획을 구분합니다. 외부 고객 수·매출·전환율·PMF처럼 확인하지 못한 수치는 성과로 주장하지 않습니다.
 
-My product perspective comes from operating across business, design constraints, and technology rather than from a single discipline.
+## 링크
 
-- **E-commerce operator** — ran a pet-food online store end-to-end, including sourcing, merchandising, SEO, customer support, and operations. The business also taught me how fragile a product can become when revenue depends too heavily on one supplier.
-- **Robotics / mechanical design** — worked with 2D drawings, 3D modeling, assemblies, and interference checks, which shaped my habit of checking feasibility before promising a product outcome.
-- **Web3 / metaverse business planning** — researched emerging markets, created internal education material and investor-facing proposals, and participated in launching project sites and social channels.
-- **AI product development** — currently focused on AI-native product management, rapid validation, and building products that connect user value with real technical execution.
-
-## Current focus
-
-- Building and validating **Clunk** as an AI game-asset product and marketplace.
-- Designing AI products where agents can act, but users can still understand, verify, and control the outcome.
-- Strengthening product discovery, data-informed decision making, and end-to-end AI PM practice through ongoing AI product-management training and project work.
-
-## Links
-
-- **GitHub:** [Artemis-ignis](https://github.com/Artemis-ignis)
-- **Clunk:** [clunk.games](https://clunk.games)
-- **Clunk PM Portfolio:** [docs/portfolio](https://github.com/Artemis-ignis/clunk/tree/main/docs/portfolio)
-- **Support:** [Ko-fi](https://ko-fi.com/artemisignis)
+- [GitHub 저장소](https://github.com/Artemis-ignis)
+- [딱담아](https://github.com/Artemis-ignis/ddakdama)
+- [픽토리](https://github.com/Artemis-ignis/pictory-apps-in-toss)
+- [clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)
+- [Clunk live product](https://clunk.games)
+- [Ko-fi](https://ko-fi.com/artemisignis)
 
 <!-- ARTEMIS-IGNIS-FOOTER-BANNER:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-footer-banner.png?v=20260605-footer-banner" alt="Artemis-Ignis banner" width="100%" />
+  <img src="docs/assets/artemis-ignis-footer-banner.png?v=20260910-pm-profile" alt="Artemis-Ignis portfolio banner" width="100%" />
 </p>
 <!-- ARTEMIS-IGNIS-FOOTER-BANNER:END -->
