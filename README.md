@@ -58,7 +58,7 @@ AI 제품에서는 모델의 불확실성, 사람의 최종 검토, 개인정보
 
 ## 기술과 도구
 
-TypeScript · React · Node.js · Python · TypeScript 기반 AI 도구 연동 · LLM/Agent/MCP 제품 흐름 · Playwright · GitHub Actions · Notion · Figma · 문서화 · 제품 QA
+TypeScript · React · Node.js · Python · AI 도구 연동 · LLM/Agent/MCP 제품 흐름 · Playwright · GitHub Actions · Notion · Figma · 문서화 · 제품 QA
 
 ## 검증 원칙
 
