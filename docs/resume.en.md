@@ -41,20 +41,20 @@ Entry-level / junior PM and Product Builder focused on defining user problems, s
 
 ### Clunk · Product planning and verification · Private product case study
 
-- Problem: creators need separate evidence for file validity, usability, and quality after generating a game asset.
+- Problem: game creators must find or create assets, check files and prepare them across separate tools before they can use them in a project.
 - Role: shaped the product direction, requirements, and quality boundaries across generation, inspection, marketplace discovery, download, and agent integration.
 - Verification: checked actual files, browser screens, automated results, real renders, and human quality approval as separate states.
 - Public scope: [live product](https://clunk.games) and the [public clunk-mcp repository](https://github.com/Artemis-ignis/clunk-mcp).
 
 ### DdakDama · AI shopping experience
 
-- Designed a flow that connects natural-language shopping lists to product candidates and a cart.
+- Addressed repeated search, comparison and manual cart building after a shopping list is already decided; designed the list-to-cart preparation flow.
 - Separated product identity, package quantity, requested quantity, and final user approval.
 - [View public repository](https://github.com/Artemis-ignis/ddakdama)
 
 ### Pictory · Apps in Toss mini-app
 
-- Framed photo cleanup as a local-first product problem with privacy and trust boundaries.
+- Started from the effort of finding and organizing desired photos in a growing library; connected photo selection, grouped review and saving.
 - Included usage limits, rewarded access, subscription entitlement, and release-readiness checks.
 - [View public repository](https://github.com/Artemis-ignis/pictory-apps-in-toss)
 

@@ -1,77 +1,100 @@
-<sub>PRODUCT MANAGEMENT PORTFOLIO · 2026</sub>
+<sub>Park Junseong · Entry-level PM / PO / Service Planning</sub>
 
-# Park Junseong
+# Helping people finish<br>what they set out to do.
 
-<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="156" alt="Park Junseong portrait" />
+<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="144" alt="Park Junseong portrait" />
 
-### From a user problem to a working product.
+### Hello, I'm Junseong.
 
-Entry-level PM candidate with experience in market research, content planning and AI-assisted product building. I define the flow, make scope decisions and review the result in actual screens and files.
+Shopping recommendations still leave shopping to prepare. Growing photo libraries are difficult to organize. Game ideas can stall while the creator prepares assets.
 
-[Resume](docs/resume.en.md) · [한국어](README.md) · [Detailed product cases (Korean)](docs/cases/README.md)
+These are the problems behind my products. With experience in market research and content planning, I define product direction and user flows, then use AI tools to implement and review the experience.
+
+[Resume](docs/resume.en.md) · [Product cases, Korean](docs/cases/README.md) · [한국어](README.md)
 
 <br clear="all" />
 
 ---
 
+## Three problems, three products
+
+| Product | The job I want to make easier | What you can review |
+| --- | --- | --- |
+| **DdakDama** | Preparing a purchase after deciding what to buy | Comparison and cart-handoff flow, demo, public code |
+| **Pictory** | Finding and organizing desired photos in a growing library | Home, grouped review and saved views |
+| **Clunk** | Finding and preparing assets before starting game creation | Beta service, marketplace and file-inspection workflow |
+
 ## 01 · DdakDama
-### A shopping recommendation still leaves a cart to build.
+### From a shopping recommendation to purchase preparation.
 
-<img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/ddakdama-compare.jpg" width="100%" alt="DdakDama implemented comparison UI with product and package details" />
+**Why I built it.** Even after AI suggests a shopping list, people must search each item again, compare package sizes and prices, then fill a cart. I wanted to reduce the repeated work between the list and the store.
 
-<sub>Demo graphic using implemented UI and fixture-backed store data; not evidence of real transactions.</sub>
+<img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/ddakdama-compare.jpg" width="100%" alt="DdakDama implemented product-comparison screen" />
+<sub>Demo using implemented UI and sample product data.</sub>
 
-**My contribution:** problem framing, user flow, quantity and failure criteria, AI-assisted implementation and review.
+**The experience.** List input → candidate review → preflight → cart handoff and result review, across web, extension and ChatGPT entry points.
 
-A request for two 50mL units is different from one two-pack. I separated product identity, package contents and purchase quantity, reserved uncertain candidates for user review, and made partial failure recoverable. The implementation checks cart quantity changes after an action. Final checkout stays with the user.
+**A product decision.** Speed is only useful when the cart contains the intended products. I separated product identity, package contents and purchase quantity, and kept uncertain candidates reviewable. Partial failure leaves a recovery path.
 
-**Built:** list → candidate comparison → preflight → result and recovery screens. The next research question is where people correct candidates or abandon the flow.
+**My contribution.** Problem framing, user flow, quantity and completion criteria, AI-assisted implementation and review. The connected flow and demo are available; purchase-preparation time and task completion are future user-study measures.
 
-[Repository](https://github.com/Artemis-ignis/ddakdama) · [51-second demo](https://youtu.be/hpRkAGgw03c) · [Case study](docs/cases/ddakdama.md)
-
-## 02 · Pictory
-### Photo organization needs trust as well as classification.
-
-<p align="center"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-home.png" width="44%" alt="Pictory home and usage credits" /> <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-organize.png" width="44%" alt="Pictory grouped photo review" /></p>
-
-<sub>Project submission graphics showing implemented screens with sample photos.</sub>
-
-**My contribution:** journey and information structure, sensitive-image handling, usage and payment criteria, AI-assisted implementation and review.
-
-I connected home, grouped review and saved photos; used substitute images for sensitive results; and based rewarded credits and paid access on verified events and server state.
-
-**Built:** home, organization and saved views with classification and entitlement integration. Verification on real Toss devices, including permissions, ads and payments, remains a release requirement.
-
-[Repository](https://github.com/Artemis-ignis/pictory-apps-in-toss) · [Case study](docs/cases/pictory.md)
-
-## 03 · Clunk
-### A good-looking asset still needs to work as a file.
-
-<img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/clunk-home.png" width="100%" alt="Clunk live home captured on September 8, 2026, showing asset previews and file-derived polygon counts" />
-
-<sub>Live homepage capture, September 8, 2026. Homepage copy is not evidence that every feature or engine integration is complete.</sub>
-
-**My contribution:** product direction, requirements, priorities, quality criteria and review of AI-generated implementations.
-
-I connected asset selection with file evidence, kept automated inspection separate from render quality and human approval, and used browser checks to improve the start-to-market journey, responsive layout and scrolling over 3D previews.
-
-**Built:** a public beta and recorded file-verification workflows. Creator interviews, engine-use tasks and repeat-use value are the next validation questions.
-
-[Live product](https://clunk.games) · [Public clunk-mcp tool](https://github.com/Artemis-ignis/clunk-mcp) · [Case study](docs/cases/clunk.md)
-
-<sub>Clunk source is private. Only shareable screens and product decisions appear here.</sub>
+[Case study, Korean](docs/cases/ddakdama.md) · [51-second demo](https://youtu.be/hpRkAGgw03c) · [Repository](https://github.com/Artemis-ignis/ddakdama)
 
 ---
 
-## Experience
+## 02 · Pictory
+### Make accumulated photos easy to find and use again.
 
-- **MetaChain · Jun 2022–May 2023:** NFT/DAO/P2E research, internal education, proposals, content and launch materials.
-- **LPK Robotics · Aug–Sep 2024:** drawings, 3D modeling and assembly interference review.
-- **Personal products:** requirements, user flows, AI-assisted implementation and screen/file review.
-- **Education:** Business Information Systems, Dongyang Mirae University; FastCampus AI Product Manager Advanced Camp, Cohort 10, in progress.
+**Why I built it.** Taking photos is easy; reviewing, grouping and finding desired shots takes effort. I wanted to reduce the burden that makes people keep putting off photo organization.
 
-I am looking for entry-level PM/PO or service-planning opportunities in AI, commerce and content products.
+<p align="center"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-home.png" width="44%" alt="Pictory home: choosing an organization purpose" /> <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-organize.png" width="44%" alt="Pictory grouped photo review" /></p>
+<sub>Submission graphics showing implemented screens with sample photos.</sub>
+
+**The experience.** Select photos → review groups by category or date → organize and save.
+
+**A product decision.** Classification is useful when people can find and keep the shots they want. I connected grouped review with saving, reduced exposure of sensitive results and defined verified credit and paid-access rules.
+
+**My contribution.** User journey, information structure, photo-handling and usage policies, AI-assisted implementation and review. Core views and processing integrations exist. Real-device permission, ad and payment checks remain release work.
+
+[Case study, Korean](docs/cases/pictory.md) · [Repository](https://github.com/Artemis-ignis/pictory-apps-in-toss)
+
+---
+
+## 03 · Clunk
+### Help game ideas get past asset preparation.
+
+**Why I built it.** Creators need to find or make assets, inspect files and prepare them for their project. Those tasks are scattered across tools. I wanted to bring that preparation together so creators can move on to making their game.
+
+<img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/clunk-home.png" width="100%" alt="Clunk live homepage: asset previews and marketplace, creation and inspection entry points" />
+<sub>Live homepage capture, September 8, 2026.</sub>
+
+**The experience.** Asset discovery and creation → preview → file inspection → download and use preparation.
+
+**A product decision.** A visual preview alone does not finish the creator's task. I connected discovery with file evidence and reviewed file checks, rendering and human quality approval separately. Browser inspection also informed navigation, responsive-layout and scrolling improvements.
+
+**My contribution.** Direction, requirements, priorities, quality criteria and review of AI-generated results. A beta service and recorded file-verification workflows are available. Creator interviews and real use tasks are the next validation step; compatibility with every asset and engine is not claimed.
+
+[Case study, Korean](docs/cases/clunk.md) · [Live product](https://clunk.games) · [Public inspection tool](https://github.com/Artemis-ignis/clunk-mcp)
+
+<sub>Clunk source remains private; this portfolio presents shareable screens and product decisions.</sub>
+
+---
+
+## Experience I bring to a team
+
+- **Research into execution:** at MetaChain, I worked on emerging-market research, internal education, proposals, content and launch materials.
+- **Ideas into working flows:** in personal projects, I define requirements, use AI tools to implement them, inspect the results and follow up on changes.
+- **Attention to practical constraints:** drawings, 3D modeling and assembly checks at LPK Robotics helped me understand the gap between intent and implementation.
+
+| Experience | Period |
+| --- | --- |
+| MetaChain · game content planning and marketing | Jun 2022–May 2023 |
+| LPK Robotics · design intern | Aug–Sep 2024 |
+| Dongyang Mirae University · Business Information Systems, associate degree | 2017–2023 |
+| FastCampus AI Product Manager Advanced Camp, Cohort 10 | In progress |
+
+I am seeking entry-level PM/PO and service-planning opportunities in AI, commerce and content. I want to extend my hands-on building experience through customer research, team collaboration and post-launch analysis.
 
 [Read my resume →](docs/resume.en.md)
 
-<sub>These cases demonstrate planning, implementation and verification. User growth, revenue and conversion are not claimed without measured evidence.</sub>
+<sub>Personal projects demonstrate planning, AI-assisted implementation and review. User growth, revenue and conversion will be added when measured.</sub>
