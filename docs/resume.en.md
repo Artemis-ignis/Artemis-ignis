@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/269841952?v=4" alt="Park Junseong profile photo" width="112" />
+  <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" alt="Park Junseong profile photo" width="148" />
 </p>
 
 # Park Junseong
@@ -84,3 +84,5 @@ I do not claim external users, revenue, conversion, PMF, or time savings without
 - [Pictory](https://github.com/Artemis-ignis/pictory-apps-in-toss)
 - [clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)
 - [Clunk live product](https://clunk.games)
+
+[Visual product portfolio](../../README.en.md)

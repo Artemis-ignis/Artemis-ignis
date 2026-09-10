@@ -1,80 +1,112 @@
-<!-- ARTEMIS-IGNIS-TOP:START -->
+<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="156" alt="박준성 증명사진" />
+
+<sub>PRODUCT MANAGEMENT PORTFOLIO · 2026</sub>
+
+# 박준성
+### 사용자 문제를 제품으로 옮기고,<br>직접 확인하며 개선합니다.
+
+시장 조사와 콘텐츠 기획을 경험하고, AI 도구로 제품을 구현하며<br>
+**무엇을 만들지 · 왜 먼저 만들지 · 어떻게 확인할지**를 구체화하는 신입 PM 지원자입니다.
+
+[이력서](docs/resume.ko.md) · [English](README.en.md) · [제품 사례 자세히 보기](docs/cases/README.md)
+
+<br clear="all" />
+
+---
+
+## 제가 만든 제품을 소개합니다
+
+**딱담아** — 장보기 목록에서 상품 검토까지  
+**픽토리** — 사진 선택에서 정리·보관까지  
+**Clunk** — 게임 에셋 선택에서 실제 파일 검사까지
+
+세 제품에서 반복해서 고민한 질문은 같습니다.<br>
+**“AI가 만든 결과를 사용자가 이해하고, 다음 행동을 선택할 수 있는가?”**
+
+## 01 · 딱담아
+### “추천은 받았는데, 장바구니는 다시 만들어야 한다”
+
+<a href="https://github.com/Artemis-ignis/ddakdama"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/ddakdama-compare.jpg" width="100%" alt="딱담아 구현 화면을 사용한 데모: 상품 후보, 포장 단위와 가격을 비교하는 흐름" /></a>
+<sub>구현 UI를 사용한 제출용 데모 이미지 · 상품 데이터는 재현용 샘플이며 실제 거래 성과를 의미하지 않습니다.</sub>
+
+**제품** · 자연어 목록을 상품 후보 검토와 장바구니 전달로 연결하는 웹·확장 프로그램·ChatGPT 앱  
+**나의 역할** · 문제와 사용자 흐름 정의, 수량 처리 기준·실패 대응 설계, AI 도구를 활용한 구현·검수
+
+목록을 받아 검색만 해주는 것으로는 부족했습니다. **“50mL 두 개”와 “2개 묶음 한 개”**를 구분하지 못하면 편리함이 잘못된 구매로 이어집니다.
+
+- **결정 1 — 상품과 수량을 따로 판단했습니다.** 상품명·규격·포장 내용·구매 수량을 나누고, 확실한 후보와 사용자 검토가 필요한 후보를 구분했습니다.
+- **결정 2 — 일부 실패에서도 다음 행동을 남겼습니다.** 문제가 있는 상품은 멈추고, 확인된 항목과 다시 고를 항목을 화면에서 분리했습니다.
+- **확인 기준 — 버튼 클릭 뒤 실제 변화를 봅니다.** 장바구니 수량 증가를 확인하는 로직을 두고, 최종 주문은 사용자가 확인하도록 구성했습니다.
+
+**만든 결과** · 목록 → 후보 비교 → 담기 전 확인 → 결과·복구 화면을 연결했습니다. 다음 검증 과제는 사용자가 후보를 수정하는 빈도와 장바구니 전달까지의 완료율입니다.
+
+[저장소와 실행 방법 →](https://github.com/Artemis-ignis/ddakdama) · [51초 데모 영상 →](https://youtu.be/hpRkAGgw03c) · [제품 판단과 실패 대응 →](docs/cases/ddakdama.md)
+
+## 02 · 픽토리
+### “사진을 정리하고 싶지만, 내 사진을 맡기기는 불안하다”
+
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/269841952?v=4" alt="박준성 GitHub 프로필 사진" width="128" />
+  <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-home.png" width="44%" alt="픽토리 홈: AI 크레딧과 정리 목적을 선택하는 앱 화면" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-organize.png" width="44%" alt="픽토리 정리함: 분류별·날짜별 사진 묶음을 검토하는 앱 화면" />
 </p>
-<p align="center">
-  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260910-pm-profile" alt="Artemis-Ignis product portfolio emblem" width="420" />
-</p>
-<!-- ARTEMIS-IGNIS-TOP:END -->
+<sub>프로젝트의 앱인토스 제출용 이미지 · 샘플 사진을 이용한 구현 화면입니다.</sub>
 
-<h1 align="center">박준성 · Artemis-Ignis</h1>
-<p align="center"><strong>AI Product Manager · Product Builder</strong></p>
-<p align="center">
-사용자 문제를 정의하고, 가장 작은 검증 가능한 제품을 설계하고, 실제 파일·브라우저·사용자 흐름으로 품질을 확인합니다.
-</p>
+**제품** · 사진을 선택하고 분류 결과를 검토해 정리·보관하는 Apps in Toss 미니앱  
+**나의 역할** · 사용자 여정·정보 구조, 민감 이미지 처리, 무료 사용량·보상·구독 기준, AI 도구를 활용한 구현·검수
 
-<p align="center">
-  <a href="docs/resume.ko.md">이력서</a> ·
-  <a href="README.en.md">English profile</a> ·
-  <a href="https://clunk.games">Clunk live product</a>
-</p>
+사진 정리에는 분류 정확도뿐 아니라 **“어떤 사진이 남는지, 무엇이 저장되는지, 왜 사용량이 차감되는지”**를 이해시키는 일이 필요했습니다.
 
-## 한 줄 소개
+- **결정 1 — 결과를 검토할 수 있게 묶었습니다.** 홈 → 정리 → 보관으로 이어지는 흐름과 분류별·날짜별 탐색을 구성했습니다.
+- **결정 2 — 민감한 결과의 노출을 줄였습니다.** 민감·확인 필요 항목에는 원본 썸네일 대신 대체 이미지를 사용하고, 최근 결과와 삭제 범위를 관리했습니다.
+- **결정 3 — 보상과 결제에 확인 기준을 붙였습니다.** 광고 보상 이벤트와 서버 결제 상태가 확인돼야 사용 권한이 반영되도록 설계했습니다.
 
-모호한 사용자 문제를 실행 가능한 요구사항과 검증 기준으로 바꾸는 신입·주니어 PM/PO입니다. AI 제품을 직접 기획하고 구현하면서 문제 정의, 우선순위, 사용자 흐름, 수용 기준, 출시 전 검증을 하나의 사이클로 연결해 왔습니다.
+**만든 결과** · 홈·정리·보관 화면과 분류·사용량·권한 처리 연결부를 구현했습니다. 현재 제품 빌드 단계이며 실제 토스 단말에서의 권한·광고·결제 검증은 출시 판단에 필요한 별도 과제입니다.
 
-## 대표 제품 사례
+[저장소와 구현 범위 →](https://github.com/Artemis-ignis/pictory-apps-in-toss) · [개인정보와 수익화의 제품 결정 →](docs/cases/pictory.md)
 
-| 제품 | 사용자의 문제 | 제가 한 일 | 공개 범위 |
-| --- | --- | --- | --- |
-| **[딱담아](https://github.com/Artemis-ignis/ddakdama)** | 자연어 장보기 목록을 실제 상품과 장바구니로 옮기는 과정이 번거롭습니다. | 목록 해석 → 상품 후보 비교 → 수량·포장 단위 확인 → 사용자가 승인한 장바구니 전달 흐름을 설계했습니다. | 공개 저장소 |
-| **[픽토리](https://github.com/Artemis-ignis/pictory-apps-in-toss)** | 사진 정리는 반복적이고, 이미지 분류는 개인정보·신뢰·비용 문제가 함께 발생합니다. | 로컬 우선 처리, 민감 이미지 보호, 사용량 제한, 보상형 접근, 구독 권한, 출시 검증 기준을 제품 범위에 포함했습니다. | 공개 저장소 |
-| **Clunk** | 게임 제작자는 에셋을 생성한 뒤에도 실제 파일 규격·사용 가능성·검증 근거를 따로 확인해야 합니다. | 생성 → 검사 → 마켓 탐색 → 다운로드·에이전트 연동까지의 제품 방향과 품질 경계를 설계하고, 브라우저와 실제 파일로 검수했습니다. | 비공개 제품 사례 · [라이브 서비스](https://clunk.games) |
-| **[clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)** | 모델의 미리보기만으로는 GLB/GLTF가 실제 프로젝트에 들어갈 수 있는지 판단하기 어렵습니다. | 실제 바이트 검사, 원본 보존, 별도 출력, 재검사, Passport 증명 흐름을 제품 안전성과 함께 정리했습니다. | 공개 오픈소스 |
+## 03 · Clunk
+### “보기 좋은 에셋이 실제 게임에서도 쓸 수 있는 파일일까?”
 
-Clunk 소스 저장소는 비공개입니다. 공개 프로필에는 저장소 URL을 노출하지 않고, 라이브 제품과 공개 clunk-mcp에서 확인 가능한 범위만 소개합니다.
+<a href="https://clunk.games"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/clunk-home.png" width="100%" alt="Clunk 운영 홈 실제 캡처: 에셋 미리보기와 파일에서 측정한 폴리곤 정보" /></a>
+<sub>2026.09.08 운영 홈 캡처 · 화면 문구는 전체 기능 완성이나 모든 엔진에서의 사용 적합성을 보증하지 않습니다.</sub>
 
-## 제가 보여주는 PM 역량
+**제품** · 게임 에셋의 선택과 파일 검증을 연결하는 공개 베타  
+**나의 역할** · 제품 방향·요구사항·우선순위·품질 기준 정의, AI 생성 결과와 실제 화면 검수
 
-- **문제 정의**: 사용자 과업과 불편을 기능 목록보다 먼저 정리합니다.
-- **우선순위**: 가장 작은 End-to-End 범위를 정하고, 다음 의사결정에 필요한 근거를 남깁니다.
-- **실행**: AI 도구와 구현 이해도를 활용해 기획안이 실제 동작하는 흐름까지 연결합니다.
-- **검증**: 자동 검사 통과, 실제 화면 렌더, 사람이 승인한 품질을 서로 다른 상태로 기록합니다.
-- **커뮤니케이션**: 요구사항·완료 기준·미검증 항목을 문서로 분리해 협업자가 같은 맥락을 보게 합니다.
+에셋을 생성하는 것만으로 제작자의 일이 끝나지 않았습니다. 외형을 고른 뒤 파일 규격과 내용을 확인하고, 실제로 열어 보고, 사용 조건까지 검토해야 했습니다.
 
-## 일하는 방식
+- **결정 1 — 선택과 파일 근거를 연결했습니다.** 마켓·상품 상세·미리보기와 파일 검사 흐름을 제품 경험으로 묶었습니다.
+- **결정 2 — 품질 판정을 나눴습니다.** 자동 파일 검사, 실제 렌더 확인, 사람의 품질 승인을 별도로 기록했습니다.
+- **결정 3 — 검증 후 화면을 고쳤습니다.** 시작 버튼의 마켓 이동, 데스크톱·모바일 화면 맞춤, 3D 미리보기 위 스크롤 동작을 운영 화면에서 확인하며 개선했습니다.
 
-문제 관찰 → 문제 정의 → 가설 수립 → MVP 범위 설정 → 구현·프로토타이핑 → 실제 근거로 검증 → 학습과 다음 우선순위 결정
+**만든 결과** · 운영 서비스와 파일 검사·재검사 기록을 제시할 수 있습니다. 다음 과제는 제작자 인터뷰와 다운로드 후 실제 엔진 적용 경험을 통해 반복 사용 가치를 확인하는 것입니다.
 
-AI 제품에서는 모델의 불확실성, 사람의 최종 검토, 개인정보, 도구 권한, 실패 시 복구 방식까지 제품 결정으로 다룹니다.
+[라이브 제품 →](https://clunk.games) · [공개 파일 검사 도구 clunk-mcp →](https://github.com/Artemis-ignis/clunk-mcp) · [문제 정의와 검증 사례 →](docs/cases/clunk.md)
 
-## 경험 스냅샷
+<sub>Clunk 소스 저장소는 비공개입니다. 위에는 공개 가능한 화면과 제품 판단만 정리했습니다.</sub>
 
-| 시기 | 경험 | PM 관점의 근거 |
+---
+
+## 이 경험을 PM 업무로 연결합니다
+
+| 경험 | 실제로 해 본 일 | 팀에 기여할 수 있는 일 |
 | --- | --- | --- |
-| 2022.06–2023.05 | 메타체인 · 게임 콘텐츠 기획·마케팅 | NFT·DAO·P2E 시장 조사, 내부 교육 자료, 투자 제안서, 콘텐츠·사이트·Discord 운영 자료 작성 |
-| 2024.08–2024.09 | LPK Robotics · 설계 인턴 | 2D 도면, 3D 모델링, 어셈블리 간섭 검토를 통해 현장 제조 제약과 요구사항을 관찰 |
-| 현재 | Clunk · 개인 제품 프로젝트 | 제품 방향, 요구사항, 품질 기준, 브라우저 흐름과 실제 파일 검증을 직접 설계·검수 |
+| **메타체인 · 2022.06–2023.05** | NFT·DAO·P2E 시장 조사, 내부 교육, 투자 제안서·콘텐츠·사이트·Discord 작업 | 복잡한 시장 정보를 정리해 기획과 실행 자료로 전환 |
+| **LPK Robotics · 2024.08–2024.09** | 2D 도면, 3D 모델링, 어셈블리 간섭 검토 | 요구사항과 구현·제조 제약을 함께 확인 |
+| **개인 제품 프로젝트** | 제품 흐름·완료 기준 설계, AI 도구를 통한 구현, 화면·파일 검수 | 기획을 시제품으로 구체화하고 개발·QA 논의를 연결 |
 
-## 기술과 도구
+**현재 학습** · 패스트캠퍼스 AI Product Manager 심화 캠프 10기 수강 중  
+**학력** · 동양미래대학교 경영정보학과 전문학사
 
-TypeScript · React · Node.js · Python · AI 도구 연동 · LLM/Agent/MCP 제품 흐름 · Playwright · GitHub Actions · Notion · Figma · 문서화 · 제품 QA
+기획 문서와 화면에서 판단을 설명하고, 모르는 부분은 시도한 내용과 함께 질문합니다. AI 도구가 작성한 코드와 이미지도 제가 정한 기준으로 검수하며, 고객 인터뷰와 출시 후 지표 분석 역량을 보강하고 있습니다.
 
-## 검증 원칙
+**활용 도구** · Notion · GitHub · Codex · Claude Code · Playwright  
+**구현 경험** · TypeScript · React · Node.js · AI·MCP 연동
 
-실제로 수행한 일, 이번에 세운 가설, 입사 후 계획을 구분합니다. 외부 고객 수·매출·전환율·PMF처럼 확인하지 못한 수치는 성과로 주장하지 않습니다.
+### 함께 만들고 싶은 제품
+사용자의 반복 작업을 줄이는 AI 서비스, 커머스·콘텐츠 제품의 **신입 PM/PO·서비스 기획** 기회를 찾고 있습니다.
 
-## 링크
+[한국어 이력서 읽기 →](docs/resume.ko.md) · [English resume →](docs/resume.en.md)
 
-- [GitHub 저장소](https://github.com/Artemis-ignis)
-- [딱담아](https://github.com/Artemis-ignis/ddakdama)
-- [픽토리](https://github.com/Artemis-ignis/pictory-apps-in-toss)
-- [clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)
-- [Clunk live product](https://clunk.games)
-- [Ko-fi](https://ko-fi.com/artemisignis)
-
-<!-- ARTEMIS-IGNIS-FOOTER-BANNER:START -->
-<p align="center">
-  <img src="docs/assets/artemis-ignis-footer-banner.png?v=20260910-pm-profile" alt="Artemis-Ignis portfolio banner" width="100%" />
-</p>
-<!-- ARTEMIS-IGNIS-FOOTER-BANNER:END -->
+<sub>개인 프로젝트는 제품 기획·구현·검증 경험으로 소개합니다. 사용자 수·매출·전환율은 확인된 성과가 있을 때 업데이트합니다.</sub>

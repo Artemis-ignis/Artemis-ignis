@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/269841952?v=4" alt="박준성 프로필 사진" width="112" />
+  <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" alt="박준성 프로필 사진" width="148" />
 </p>
 
 # 박준성
@@ -84,3 +84,5 @@ TypeScript · React · Node.js · Python · LLM/Agent/MCP 제품 흐름 · Playw
 - [픽토리](https://github.com/Artemis-ignis/pictory-apps-in-toss)
 - [clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)
 - [Clunk live product](https://clunk.games)
+
+[화면과 함께 보는 제품 포트폴리오](../../README.md) · [제품별 문제와 의사결정](../cases/README.md)

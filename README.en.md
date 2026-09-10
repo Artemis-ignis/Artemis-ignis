@@ -1,83 +1,76 @@
-<!-- ARTEMIS-IGNIS-TOP:START -->
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/269841952?v=4" alt="Park Junseong GitHub profile photo" width="128" />
-</p>
-<p align="center">
-  <img src="docs/assets/artemis-ignis-emblem-top.jpg?v=20260910-pm-profile" alt="Artemis-Ignis product portfolio emblem" width="420" />
-</p>
-<!-- ARTEMIS-IGNIS-TOP:END -->
+<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="156" alt="Park Junseong portrait" />
 
-<h1 align="center">Park Junseong · Artemis-Ignis</h1>
-<p align="center"><strong>AI Product Manager · Product Builder</strong></p>
-<p align="center">
-I define user problems, scope the smallest testable product, and verify quality with real files, browser flows, and evidence.
-</p>
+<sub>PRODUCT MANAGEMENT PORTFOLIO · 2026</sub>
 
-<p align="center">
-  <a href="docs/resume.ko.md">Resume</a> ·
-  <a href="README.md">한국어 프로필</a> ·
-  <a href="https://clunk.games">Clunk live product</a>
-</p>
+# Park Junseong
+### From a user problem to a working product.
 
-## Positioning
+Entry-level PM candidate with experience in market research, content planning and AI-assisted product building. I define the flow, make scope decisions and review the result in actual screens and files.
 
-An entry-level / junior PM and Product Builder who turns ambiguous user problems into executable requirements, priorities, acceptance criteria, and verification evidence.
+[Resume](docs/resume.en.md) · [한국어](README.md) · [Detailed product cases (Korean)](docs/cases/README.md)
 
-I work across discovery, product structure, AI-assisted implementation, and release checks. I separate shipped facts, product hypotheses, and post-join plans instead of presenting assumptions as outcomes.
+<br clear="all" />
 
-## Selected product work
+---
 
-| Product | User problem | Product / PM work | Visibility |
-| --- | --- | --- | --- |
-| **[DdakDama](https://github.com/Artemis-ignis/ddakdama)** | Natural-language shopping lists still require repeated search, quantity interpretation, comparison, and manual cart rebuilding. | Designed a flow from list interpretation to candidate comparison, package-quantity verification, and user-approved cart handoff. | Public repository |
-| **[Pictory](https://github.com/Artemis-ignis/pictory-apps-in-toss)** | Photo cleanup is repetitive, while image classification introduces privacy, trust, and cost constraints. | Included local-first handling, sensitive-image protection, usage limits, rewarded access, subscription entitlement, and release-readiness checks in the product scope. | Public repository |
-| **Clunk** | Game creators still need separate evidence for file validity, usability, and quality after generating an asset. | Shaped the product direction across generation, inspection, marketplace discovery, download, and agent integration, then verified browser flows and actual files. | Private product case study · [live product](https://clunk.games) |
-| **[clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)** | A model preview cannot prove that a GLB/GLTF is usable in a real project. | Organized byte-level inspection, source preservation, separate outputs, fresh reinspection, and Passport evidence as a product safety boundary. | Public open source |
+## 01 · DdakDama
+### A shopping recommendation still leaves a cart to build.
 
-The Clunk source repository is private. This public profile intentionally avoids exposing its repository URL and only presents the live product and the public clunk-mcp implementation.
+<img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/ddakdama-compare.jpg" width="100%" alt="DdakDama implemented comparison UI with product and package details" />
 
-## PM capabilities
+<sub>Demo graphic using implemented UI and fixture-backed store data; not evidence of real transactions.</sub>
 
-- **Problem framing**: start from the user job and friction before listing features.
-- **Prioritization**: choose the smallest end-to-end scope that can produce a decision.
-- **Execution**: use AI tools and implementation literacy to connect product intent to a working flow.
-- **Verification**: keep automated checks, real-render checks, and human quality approval as separate states.
-- **Communication**: make requirements, acceptance criteria, unknowns, and next actions explicit.
+**My contribution:** problem framing, user flow, quantity and failure criteria, AI-assisted implementation and review.
 
-## Working loop
+A request for two 50mL units is different from one two-pack. I separated product identity, package contents and purchase quantity, reserved uncertain candidates for user review, and made partial failure recoverable. The implementation checks cart quantity changes after an action. Final checkout stays with the user.
 
-Observe behavior → define the problem → form a hypothesis → scope the MVP → prototype or build → verify with real evidence → document learning and choose the next priority
+**Built:** list → candidate comparison → preflight → result and recovery screens. The next research question is where people correct candidates or abandon the flow.
 
-For AI products, model uncertainty, human review, privacy, tool permissions, and failure recovery are product decisions—not details to postpone.
+[Repository](https://github.com/Artemis-ignis/ddakdama) · [51-second demo](https://youtu.be/hpRkAGgw03c) · [Case study](docs/cases/ddakdama.md)
 
-## Experience snapshot
+## 02 · Pictory
+### Photo organization needs trust as well as classification.
 
-| Period | Experience | Evidence relevant to PM work |
-| --- | --- | --- |
-| Jun 2022–May 2023 | MetaChain · game content planning and marketing | Researched NFT/DAO/P2E markets; structured internal education material; contributed to proposals, content, site, and Discord operations |
-| Aug 2024–Sep 2024 | LPK Robotics · design intern | Worked with 2D drawings, 3D modeling, assembly interference checks, and manufacturing constraints |
-| Current | Clunk · personal product project | Defines product direction, requirements, quality criteria, browser flows, and actual-file verification |
+<p align="center"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-home.png" width="44%" alt="Pictory home and usage credits" /> <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-organize.png" width="44%" alt="Pictory grouped photo review" /></p>
 
-## Product and technical toolkit
+<sub>Project submission graphics showing implemented screens with sample photos.</sub>
 
-TypeScript · React · Node.js · Python · AI tool integration · LLM/Agent/MCP product flows · Playwright · GitHub Actions · Notion · Figma · documentation · product QA
+**My contribution:** journey and information structure, sensitive-image handling, usage and payment criteria, AI-assisted implementation and review.
 
-## Evidence policy
+I connected home, grouped review and saved photos; used substitute images for sensitive results; and based rewarded credits and paid access on verified events and server state.
 
-I distinguish what I actually did, what I hypothesize, and what I plan to test after joining a team. I do not claim external users, revenue, conversion, or PMF without evidence.
+**Built:** home, organization and saved views with classification and entitlement integration. Verification on real Toss devices, including permissions, ads and payments, remains a release requirement.
 
-## Resume and links
+[Repository](https://github.com/Artemis-ignis/pictory-apps-in-toss) · [Case study](docs/cases/pictory.md)
 
-- [Resume](docs/resume.en.md)
-- [Korean profile](README.md)
-- [DdakDama](https://github.com/Artemis-ignis/ddakdama)
-- [Pictory](https://github.com/Artemis-ignis/pictory-apps-in-toss)
-- [clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)
-- [Clunk live product](https://clunk.games)
-- [Ko-fi](https://ko-fi.com/artemisignis)
+## 03 · Clunk
+### A good-looking asset still needs to work as a file.
 
-<!-- ARTEMIS-IGNIS-FOOTER-BANNER:START -->
-<p align="center">
-  <img src="docs/assets/artemis-ignis-footer-banner.png?v=20260910-pm-profile" alt="Artemis-Ignis portfolio banner" width="100%" />
-</p>
-<!-- ARTEMIS-IGNIS-FOOTER-BANNER:END -->
+<img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/clunk-home.png" width="100%" alt="Clunk live home captured on September 8, 2026, showing asset previews and file-derived polygon counts" />
+
+<sub>Live homepage capture, September 8, 2026. Homepage copy is not evidence that every feature or engine integration is complete.</sub>
+
+**My contribution:** product direction, requirements, priorities, quality criteria and review of AI-generated implementations.
+
+I connected asset selection with file evidence, kept automated inspection separate from render quality and human approval, and used browser checks to improve the start-to-market journey, responsive layout and scrolling over 3D previews.
+
+**Built:** a public beta and recorded file-verification workflows. Creator interviews, engine-use tasks and repeat-use value are the next validation questions.
+
+[Live product](https://clunk.games) · [Public clunk-mcp tool](https://github.com/Artemis-ignis/clunk-mcp) · [Case study](docs/cases/clunk.md)
+
+<sub>Clunk source is private. Only shareable screens and product decisions appear here.</sub>
+
+---
+
+## Experience
+
+- **MetaChain · Jun 2022–May 2023:** NFT/DAO/P2E research, internal education, proposals, content and launch materials.
+- **LPK Robotics · Aug–Sep 2024:** drawings, 3D modeling and assembly interference review.
+- **Personal products:** requirements, user flows, AI-assisted implementation and screen/file review.
+- **Education:** Business Information Systems, Dongyang Mirae University; FastCampus AI Product Manager Advanced Camp, Cohort 10, in progress.
+
+I am looking for entry-level PM/PO or service-planning opportunities in AI, commerce and content products.
+
+[Read my resume →](docs/resume.en.md)
+
+<sub>These cases demonstrate planning, implementation and verification. User growth, revenue and conversion are not claimed without measured evidence.</sub>
