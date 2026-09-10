@@ -68,7 +68,7 @@ I distinguish what I actually did, what I hypothesize, and what I plan to test a
 
 ## Resume and links
 
-- [Resume](docs/resume.ko.md)
+- [Resume](docs/resume.en.md)
 - [Korean profile](README.md)
 - [DdakDama](https://github.com/Artemis-ignis/ddakdama)
 - [Pictory](https://github.com/Artemis-ignis/pictory-apps-in-toss)
