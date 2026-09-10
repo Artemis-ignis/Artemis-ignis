@@ -1,8 +1,9 @@
-<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="156" alt="박준성 증명사진" />
-
 <sub>PRODUCT MANAGEMENT PORTFOLIO · 2026</sub>
 
 # 박준성
+
+<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="156" alt="박준성 증명사진" />
+
 ### 사용자 문제를 제품으로 옮기고,<br>직접 확인하며 개선합니다.
 
 시장 조사와 콘텐츠 기획을 경험하고, AI 도구로 제품을 구현하며<br>

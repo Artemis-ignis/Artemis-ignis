@@ -85,4 +85,4 @@ I do not claim external users, revenue, conversion, PMF, or time savings without
 - [clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)
 - [Clunk live product](https://clunk.games)
 
-[Visual product portfolio](../../README.en.md)
+[Visual product portfolio](../README.en.md)

@@ -1,8 +1,9 @@
-<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="156" alt="Park Junseong portrait" />
-
 <sub>PRODUCT MANAGEMENT PORTFOLIO · 2026</sub>
 
 # Park Junseong
+
+<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="156" alt="Park Junseong portrait" />
+
 ### From a user problem to a working product.
 
 Entry-level PM candidate with experience in market research, content planning and AI-assisted product building. I define the flow, make scope decisions and review the result in actual screens and files.
