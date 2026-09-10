@@ -52,11 +52,12 @@ Entry-level / junior PM and Product Builder focused on defining user problems, s
 - Separated product identity, package quantity, requested quantity, and final user approval.
 - [View public repository](https://github.com/Artemis-ignis/ddakdama)
 
-### Pictory · Apps in Toss mini-app
+### Yeosachin (formerly Pictory) · A travel-photo selection companion
 
-- Started from the effort of finding and organizing desired photos in a growing library; connected photo selection, grouped review and saving.
-- Included usage limits, rewarded access, subscription entitlement, and release-readiness checks.
-- [View public repository](https://github.com/Artemis-ignis/pictory-apps-in-toss)
+- Refocusing a general photo organizer on the effort of choosing which similar travel shots to keep after a trip.
+- Defined photo selection → suggested/similar-shot review → named trip album, with user-controlled final selection and free basic organization.
+- Redesigned core flows are implemented; release preparation is ongoing. Real Toss-device permissions, file saving and reduced selection effort remain validation work.
+- [Product case, Korean](cases/pictory.md) · [Public repository](https://github.com/Artemis-ignis/pictory-apps-in-toss)
 
 ## Education
 
@@ -81,7 +82,7 @@ I do not claim external users, revenue, conversion, PMF, or time savings without
 
 - [GitHub profile](https://github.com/Artemis-ignis)
 - [DdakDama](https://github.com/Artemis-ignis/ddakdama)
-- [Pictory](https://github.com/Artemis-ignis/pictory-apps-in-toss)
+- [Yeosachin (formerly Pictory)](https://github.com/Artemis-ignis/pictory-apps-in-toss)
 - [clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)
 - [Clunk live product](https://clunk.games)
 

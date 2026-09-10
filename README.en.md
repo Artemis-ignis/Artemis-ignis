@@ -6,7 +6,7 @@
 
 ### Hello, I'm Junseong.
 
-Shopping recommendations still leave shopping to prepare. Growing photo libraries are difficult to organize. Game ideas can stall while the creator prepares assets.
+Shopping recommendations still leave shopping to prepare. After a trip, choosing which near-duplicate photos to keep can feel like another chore. Game ideas can stall while the creator prepares assets.
 
 These are the problems behind my products. With experience in market research and content planning, I define product direction and user flows, then use AI tools to implement and review the experience.
 
@@ -21,7 +21,7 @@ These are the problems behind my products. With experience in market research an
 | Product | The job I want to make easier | What you can review |
 | --- | --- | --- |
 | **DdakDama** | Preparing a purchase after deciding what to buy | Comparison and cart-handoff flow, demo, public code |
-| **Pictory** | Finding and organizing desired photos in a growing library | Home, grouped review and saved views |
+| **Yeosachin (formerly Pictory)** | Choosing which travel photos to keep after a trip | Redesigned recommendation, comparison and trip-album screens; preparing for release |
 | **Clunk** | Finding and preparing assets before starting game creation | Beta service, marketplace and file-inspection workflow |
 
 ## 01 · DdakDama
@@ -42,21 +42,21 @@ These are the problems behind my products. With experience in market research an
 
 ---
 
-## 02 · Pictory
-### Make accumulated photos easy to find and use again.
+## 02 · Yeosachin (formerly Pictory)
+### A friend who helps you choose your travel photos.
 
-**Why I built it.** Taking photos is easy; reviewing, grouping and finding desired shots takes effort. I wanted to reduce the burden that makes people keep putting off photo organization.
+**Why I am refocusing it.** After a trip, similar shots pile up. Comparing them one by one can delay making an album. I am narrowing Pictory's general photo-organization concept to a specific job: choosing the moments worth keeping from a trip.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-home.png" width="44%" alt="Pictory home: choosing an organization purpose" /> <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/pictory-organize.png" width="44%" alt="Pictory grouped photo review" /></p>
-<sub>Submission graphics showing implemented screens with sample photos.</sub>
+<p align="center"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/yeosachin-home.png" width="60%" alt="Yeosachin implemented travel-photo home screen" /></p>
+<sub>September 10, 2026 pre-release implementation. Actual home screen; the companion illustration is AI-generated brand artwork.</sub>
 
-**The experience.** Select photos → review groups by category or date → organize and save.
+**The experience.** Select travel photos → review suggested and similar shots → keep favorites in a named trip album.
 
-**A product decision.** Classification is useful when people can find and keep the shots they want. I connected grouped review with saving, reduced exposure of sensitive results and defined verified credit and paid-access rules.
+**A product decision.** Brightness and sharpness suggest candidates, not which memories matter. The user makes the final choice. Basic organization is free, without ad or AI-credit gates. Photos are processed on-device; cloud backup and deletion of gallery originals are not offered.
 
-**My contribution.** User journey, information structure, photo-handling and usage policies, AI-assisted implementation and review. Core views and processing integrations exist. Real-device permission, ad and payment checks remain release work.
+**My contribution and current stage.** Product direction, user flow, free-tier and trust boundaries, AI-assisted implementation and review. Redesigned screens and core photo/album flows are implemented; the app is preparing for release. Real Toss-device permissions and file saving remain to be verified. Reduced selection effort is a hypothesis, not a measured outcome.
 
-[Case study, Korean](docs/cases/pictory.md) · [Repository](https://github.com/Artemis-ignis/pictory-apps-in-toss)
+[Case study, Korean](docs/cases/pictory.md) · [Product brief, Korean](docs/cases/pictory-brief.md) · [Repository](https://github.com/Artemis-ignis/pictory-apps-in-toss)
 
 ---
 
@@ -103,4 +103,4 @@ I am seeking entry-level PM/PO and service-planning opportunities in AI, commerc
 
 Reconstructed for this portfolio on September 10, 2026, using existing product screens and records. These describe requirements, scope reasoning and proposed validation, not historical PRDs or completed user studies.
 
-[DdakDama](docs/cases/ddakdama-brief.md) · [Pictory](docs/cases/pictory-brief.md) · [Clunk](docs/cases/clunk-brief.md) — Korean
+[DdakDama](docs/cases/ddakdama-brief.md) · [Yeosachin](docs/cases/pictory-brief.md) · [Clunk](docs/cases/clunk-brief.md) — Korean

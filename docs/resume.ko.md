@@ -6,7 +6,7 @@
 
 ## 신입 PM / PO · 서비스 기획
 
-시장 조사·콘텐츠 기획 경험을 바탕으로 사용자의 반복 작업을 제품으로 풀어내는 신입 PM 지원자입니다. 딱담아·픽토리·Clunk를 만들며 제품 방향과 사용자 흐름을 정하고, AI 도구를 활용해 구현·검수했습니다.
+시장 조사·콘텐츠 기획 경험을 바탕으로 사용자의 반복 작업을 제품으로 풀어내는 신입 PM 지원자입니다. 딱담아·여사친(구 픽토리)·Clunk를 만들며 제품 방향과 사용자 흐름을 정하고, AI 도구를 활용해 구현·검수했습니다.
 
 [GitHub 프로필](https://github.com/Artemis-ignis) · [English resume](resume.en.md)
 
@@ -46,12 +46,12 @@
 - **현재 결과:** 웹·확장 프로그램·ChatGPT 앱 연결 흐름과 데모를 만들었습니다. AI 도구를 활용해 구현·검수했으며, 사용자 구매 준비 시간과 완료율은 향후 측정 과제입니다.
 - [화면과 제품 사례](cases/ddakdama.md) · [저장소](https://github.com/Artemis-ignis/ddakdama)
 
-### 픽토리 · 쌓인 사진을 쉽게 찾고 정리하기
+### 여사친 (구 픽토리) · 여행 사진을 골라주는 친구
 
-- **문제:** 사진이 쌓일수록 원하는 컷을 찾고 하나씩 분류·정리하는 부담이 커지는 상황.
-- **역할·판단:** 사진 선택 → 분류 결과 검토 → 정리·보관의 사용자 여정과 정보 구조를 구성했습니다. 민감한 결과의 노출을 줄이고 사용량·보상·구독의 적용 기준을 설계했습니다.
-- **현재 결과:** 홈·정리·보관 화면과 분류·권한 처리 연결부를 구현했습니다. 실제 토스 단말의 권한·광고·결제 검증은 출시 전 과제입니다.
-- [화면과 제품 사례](cases/pictory.md) · [저장소](https://github.com/Artemis-ignis/pictory-apps-in-toss)
+- **문제:** 여행 후 비슷한 사진을 하나씩 비교하며 남길 컷을 결정해야 하는 부담.
+- **역할·판단:** 범용 사진 정리에서 여행 사진 선택으로 제품 방향을 구체화했습니다. 사진 선택 → 추천·유사 컷 비교 → 여행 앨범 흐름을 구성하고, 최종 선택은 사용자에게 맡기며 기본 정리는 무료로 제공하도록 범위를 정했습니다.
+- **현재 결과:** 개편 화면과 사진 선택·추천·비교·앨범 흐름 구현, 출시 준비 중입니다. 실제 토스 단말의 사진 권한·파일 저장 및 선택 부담 감소는 검증 과제입니다.
+- [실제 화면과 개편 사례](cases/pictory.md) · [저장소](https://github.com/Artemis-ignis/pictory-apps-in-toss)
 
 ### Clunk · 게임 제작자가 에셋 준비를 쉽게 시작하기
 
@@ -83,7 +83,7 @@ TypeScript · React · Node.js · Python · LLM/Agent/MCP 제품 흐름 · Playw
 
 - [GitHub 프로필](https://github.com/Artemis-ignis)
 - [딱담아](https://github.com/Artemis-ignis/ddakdama)
-- [픽토리](https://github.com/Artemis-ignis/pictory-apps-in-toss)
+- [여사친 (구 픽토리)](https://github.com/Artemis-ignis/pictory-apps-in-toss)
 - [clunk-mcp](https://github.com/Artemis-ignis/clunk-mcp)
 - [Clunk live product](https://clunk.games)
 
