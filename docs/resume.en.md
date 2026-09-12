@@ -4,9 +4,9 @@
 
 # Park Junseong
 
-## AI Product Manager · Product Builder
+## AI Product Manager · Service Planning
 
-Entry-level / junior PM and Product Builder focused on defining user problems, scoping the smallest testable product, and verifying quality with real files, browser flows, and evidence.
+Entry-level / junior PM focused on defining user problems, scoping the smallest testable product, and verifying quality with real files, browser flows, and evidence.
 
 [GitHub profile](https://github.com/Artemis-ignis) · [한국어 이력서](resume.ko.md)
 
@@ -44,7 +44,7 @@ Entry-level / junior PM and Product Builder focused on defining user problems, s
 - Problem: game creators must find or create assets, check files and prepare them across separate tools before they can use them in a project.
 - Role: shaped the product direction, requirements, and quality boundaries across generation, inspection, marketplace discovery, download, and agent integration.
 - Verification: checked actual files, browser screens, automated results, real renders, and human quality approval as separate states.
-- Public scope: [live product](https://clunk.games) and the [public clunk-mcp repository](https://github.com/Artemis-ignis/clunk-mcp).
+- Public scope: a free beta at the [live product](https://clunk.games) and the [public clunk-mcp repository](https://github.com/Artemis-ignis/clunk-mcp). Traffic and use are currently very low; creator interviews and usage logs are the next step to test demand and commercial quality.
 
 ### DdakDama · AI shopping experience
 
@@ -61,7 +61,7 @@ Entry-level / junior PM and Product Builder focused on defining user problems, s
 
 ## Education
 
-- Dongyang Mirae University · Business Information Systems · Associate degree · 2017–2023
+- Dongyang Mirae University · Business Information Systems · Associate degree · Mar 2017–Feb 2023
 - FastCampus AI Product Manager Advanced Camp, Cohort 10 · In progress
 
 ## PM working loop
@@ -70,13 +70,13 @@ Observe behavior → define the problem → form a hypothesis → scope the MVP 
 
 I treat problem statements, JTBD, user journeys, requirements, acceptance criteria, failure boundaries, and release checklists as core product documents.
 
-## Product and technical toolkit
+## PM toolkit and verification
 
-TypeScript · React · Node.js · Python · LLM/Agent/MCP product flows · Playwright · GitHub Actions · Notion · Figma · product QA · documentation
+Product documents (requirements, acceptance criteria, checklists) · user journeys/JTBD · Figma · Notion · product QA · understanding of Playwright and GitHub Actions verification flows
 
-## Evidence boundary
+## AI and evidence boundary
 
-I do not claim external users, revenue, conversion, PMF, or time savings without evidence. Every case separates what I actually did, what I hypothesize, and what I plan to test after joining a team.
+I own problem framing, user and priority decisions, completion criteria and quality judgment; AI tools assist with code, documents and visual material. I verify results with browser, file and test evidence, and separate what I did from what I hypothesize and plan to test. Unmeasured users, revenue, conversion, PMF and time savings are not presented as outcomes.
 
 ## Public links
 

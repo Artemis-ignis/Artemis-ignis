@@ -8,7 +8,7 @@
 
 Shopping recommendations still leave shopping to prepare. After a trip, choosing which near-duplicate photos to keep can feel like another chore. Game ideas can stall while the creator prepares assets.
 
-These are the problems behind my products. With experience in market research and content planning, I define product direction and user flows, then use AI tools to implement and review the experience.
+These are the problems behind my products. With experience in market research and content planning, I define the problem, user flow and completion criteria, then use AI tools as implementation support and review the result.
 
 [Resume](docs/resume.en.md) · [Product cases, Korean](docs/cases/README.md) · [한국어](README.md)
 
@@ -32,7 +32,7 @@ These are the problems behind my products. With experience in market research an
 <img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/ddakdama-compare.jpg" width="100%" alt="DdakDama implemented product-comparison screen" />
 <sub>Demo using implemented UI and sample product data.</sub>
 
-**The experience.** List input → candidate review → preflight → cart handoff and result review, across web, extension and ChatGPT entry points.
+**The experience.** List input → candidate review → preflight → cart handoff and result review, across the web, GPTs and the Chrome extension as separate surfaces.
 
 **A product decision.** Speed is only useful when the cart contains the intended products. I separated product identity, package contents and purchase quantity, and kept uncertain candidates reviewable. Partial failure leaves a recovery path.
 
@@ -52,7 +52,7 @@ These are the problems behind my products. With experience in market research an
 
 **The experience.** Select travel photos → review suggested and similar shots → keep favorites in a named trip album.
 
-**A product decision.** Brightness and sharpness suggest candidates, not which memories matter. The user makes the final choice. Basic organization is free, without ad or AI-credit gates. Photos are processed on-device; cloud backup and deletion of gallery originals are not offered.
+**A product decision.** Brightness and sharpness suggest candidates, not which memories matter. The user makes the final choice. Basic organization is free, without ad or AI-credit gates. Basic classification runs on-device; when the user explicitly chooses the AI path, selected ordinary photos are resized to 384px JPEG before being sent to Gemini for recommendation. Cloud backup and deletion of gallery originals are not offered.
 
 **My contribution and current stage.** Product direction, user flow, free-tier and trust boundaries, AI-assisted implementation and review. Redesigned screens and core photo/album flows are implemented; the app is preparing for release. Real Toss-device permissions and file saving remain to be verified. Reduced selection effort is a hypothesis, not a measured outcome.
 
@@ -65,16 +65,16 @@ These are the problems behind my products. With experience in market research an
 
 **Why I built it.** Creators need to find or make assets, inspect files and prepare them for their project. Those tasks are scattered across tools. I wanted to bring that preparation together so creators can move on to making their game.
 
-<img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/clunk-home.png" width="100%" alt="Clunk live homepage: asset previews and marketplace, creation and inspection entry points" />
-<sub>Live homepage capture, September 8, 2026.</sub>
+<a href="https://clunk.games/review"><img src="docs/assets/pm-portfolio/clunk-review-20260912.png" width="100%" alt="Clunk review viewer showing a preview GLB and values read from the file" /></a>
+<sub>Fresh public review-viewer capture, September 12, 2026. The values are observations from that preview file, not proof of optimization or commercial quality.</sub>
 
-**The experience.** Asset discovery and creation → preview → file inspection → download and use preparation.
+**The intended flow.** Asset acquisition → creation and revision → file inspection → project application. The current public beta exposes a kit catalogue, a 3D review viewer, a small mining prototype and a public inspection tool; compatibility with every asset and engine is not claimed.
 
-**A product decision.** A visual preview alone does not finish the creator's task. I connected discovery with file evidence and reviewed file checks, rendering and human quality approval separately. Browser inspection also informed navigation, responsive-layout and scrolling improvements.
+**A product decision.** A visual preview alone does not finish the creator's task. I connected discovery with file evidence and reviewed file checks, rendering and human quality approval separately. Browser inspection also informed navigation and scrolling improvements.
 
-**My contribution.** Direction, requirements, priorities, quality criteria and review of AI-generated results. A beta service and recorded file-verification workflows are available. Creator interviews and real use tasks are the next validation step; compatibility with every asset and engine is not claimed.
+**My contribution.** Direction, requirements, priorities and quality criteria; scoping AI-assisted code and asset work; and review of the browser flow, file values and rendered result. Clunk is a free public beta with very little traffic or use. Creator interviews and usage logs are the next step to test demand, followed by a real project task.
 
-[Case study, Korean](docs/cases/clunk.md) · [Live product](https://clunk.games) · [Public inspection tool](https://github.com/Artemis-ignis/clunk-mcp)
+[Case study, Korean](docs/cases/clunk.md) · [Review viewer](https://clunk.games/review) · [Kit catalogue](https://clunk.games/kits) · [Live product](https://clunk.games) · [Public inspection tool](https://github.com/Artemis-ignis/clunk-mcp)
 
 <sub>Clunk source remains private; this portfolio presents shareable screens and product decisions.</sub>
 
@@ -90,10 +90,12 @@ These are the problems behind my products. With experience in market research an
 | --- | --- |
 | MetaChain · game content planning and marketing | Jun 2022–May 2023 |
 | LPK Robotics · design intern | Aug–Sep 2024 |
-| Dongyang Mirae University · Business Information Systems, associate degree | 2017–2023 |
+| Dongyang Mirae University · Business Information Systems, associate degree | Mar 2017–Feb 2023 |
 | FastCampus AI Product Manager Advanced Camp, Cohort 10 | In progress |
 
 I am seeking entry-level PM/PO and service-planning opportunities in AI, commerce and content. I want to extend my hands-on building experience through customer research, team collaboration and post-launch analysis.
+
+**How I use AI and evidence.** I own problem framing, user and priority decisions, completion criteria and quality judgment. AI tools assist with code, documents and visual material. I verify the result with browser, file and test evidence, and do not present unmeasured users, revenue, conversion or time savings as outcomes.
 
 [Read my resume →](docs/resume.en.md)
 
