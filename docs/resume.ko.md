@@ -8,7 +8,7 @@
 
 시장 조사·콘텐츠 기획 경험을 바탕으로 사용자의 반복 작업을 제품 과제로 정의하고, 딱담아·여사친(구 픽토리)·Clunk의 문제·사용자 흐름·우선순위를 설계해 온 신입 PM 지원자입니다. AI 도구가 구현을 보조하는 방식으로 결과를 만들고 검수했습니다.
 
-[GitHub 프로필](https://github.com/Artemis-ignis) · [English resume](resume.en.md)
+[PDF 이력서 다운로드](pm-resume-ko.pdf) · [GitHub 프로필](https://github.com/Artemis-ignis) · [English resume](resume.en.md)
 
 ## 지원 방향
 
