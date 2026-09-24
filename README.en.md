@@ -6,7 +6,7 @@
 
 ### Hello, I'm Junseong.
 
-Shopping recommendations still leave shopping to prepare. After a trip, choosing which near-duplicate photos to keep can feel like another chore. Game ideas can stall while the creator prepares assets.
+Shopping recommendations still leave shopping to prepare. After a trip, choosing which near-duplicate photos to keep can feel like another chore. Even a short game is more fun when friends can compete on the same terms and show the result.
 
 These are the problems behind my products. With experience in market research and content planning, I define the problem, user flow and completion criteria, then use AI tools as implementation support and review the result.
 
@@ -22,7 +22,7 @@ These are the problems behind my products. With experience in market research an
 | --- | --- | --- |
 | **DdakDama** | Preparing a purchase after deciding what to buy | Comparison and cart-handoff flow, demo, public code |
 | **Yeosachin (formerly Pictory)** | Choosing which travel photos to keep after a trip | Redesigned recommendation, comparison and trip-album screens; preparing for release |
-| **Clunk** | Finding and preparing assets before starting game creation | Beta service, marketplace and file-inspection workflow |
+| **Clunk** | Competing with friends on the same terms in a quick game and sharing the result | Two free weekly-ranking games live · clean external user count and retention not yet verified |
 
 ## 01 · DdakDama
 ### From a shopping recommendation to purchase preparation.
@@ -61,20 +61,20 @@ These are the problems behind my products. With experience in market research an
 ---
 
 ## 03 · Clunk
-### Help game ideas get past asset preparation.
+### A free web game where everyone stacks the same blocks each week.
 
-**Why I built it.** Creators need to find or make assets, inspect files and prepare them for their project. Those tasks are scattered across tools. I wanted to bring that preparation together so creators can move on to making their game.
+**Why I built it.** Casual games are everywhere, but few give friends a fair way to compete and show off the result. Every Monday a new tower opens, everyone gets the same blocks in the same order, and each run ends with a shareable result image.
 
-<a href="https://clunk.games/review"><img src="docs/assets/pm-portfolio/clunk-review-20260912.png" width="100%" alt="Clunk review viewer showing a preview GLB and values read from the file" /></a>
-<sub>Fresh public review-viewer capture, September 12, 2026. The values are observations from that preview file, not proof of optimization or commercial quality.</sub>
+**Why the product changed.** Clunk started as a tool for finding, inspecting and applying game assets. There was no measured revenue, a subscription competing with free asset packs would have needed too many paying users, and the home page asked visitors to choose between a marketplace, an inspector, AI creation and MCP at once. In September 2026 I turned clunk.games into a site of games you can play immediately, keeping the earlier asset features in place.
 
-**The intended flow.** Asset acquisition → creation and revision → file inspection → project application. The current public beta exposes a kit catalogue, a 3D review viewer, a small mining prototype and a public inspection tool; compatibility with every asset and engine is not claimed.
+<a href="https://clunk.games/en"><img src="docs/assets/pm-portfolio/clunk-games-home-20260924.png" width="100%" alt="clunk.games home: Season #1 weekly ranking and the build-this-week's-tower button" /></a>
+<sub>Live site capture, September 24, 2026. Some game-card art is AI-generated.</sub>
 
-**A product decision.** A visual preview alone does not finish the creator's task. I connected discovery with file evidence and reviewed file checks, rendering and human quality approval separately. Browser inspection also informed navigation and scrolling improvements.
+**Product decisions.** Rankings only matter if conditions are fair: each season uses the same block order, unusually high scores are held for review, and Clunk Puzzle replays the move log on the server instead of trusting the client score. After the first public post I found one IP creating several accounts for ranked runs and added per-IP sign-up limits. Until a game rating is issued, the games run free and non-commercial, with no paid items or ads.
 
-**My contribution.** Direction, requirements, priorities and quality criteria; scoping AI-assisted code and asset work; and review of the browser flow, file values and rendered result. Clunk is a free public beta with very little traffic or use. Creator interviews and usage logs are the next step to test demand, followed by a real project task.
+**My contribution.** The pivot decision; game rules, weekly ranking and fairness policy; the sharing flow and free-release scope; and review of AI-assisted game and site work. Season #1 is live. Right after a community post the site counted 61 new players, 49 distinct IPs and 208 ranked runs, but multi-account play is mixed in, so I do not claim a clean external user count or retention yet. There is no revenue.
 
-[Case study, Korean](docs/cases/clunk.md) · [Review viewer](https://clunk.games/review) · [Kit catalogue](https://clunk.games/kits) · [Live product](https://clunk.games) · [Public inspection tool](https://github.com/Artemis-ignis/clunk-mcp)
+[Play this week's tower](https://clunk.games/en) · [Clunk Puzzle](https://clunk.games/puzzle) · [Earlier asset-tool case study, Korean](docs/cases/clunk.md)
 
 <sub>Clunk source remains private; this portfolio presents shareable screens and product decisions.</sub>
 
@@ -105,4 +105,4 @@ I am seeking entry-level PM/PO and service-planning opportunities in AI, commerc
 
 Reconstructed for this portfolio on September 10, 2026, using existing product screens and records. These describe requirements, scope reasoning and proposed validation, not historical PRDs or completed user studies.
 
-[DdakDama](docs/cases/ddakdama-brief.md) · [Yeosachin](docs/cases/pictory-brief.md) · [Clunk](docs/cases/clunk-brief.md) — Korean
+[DdakDama](docs/cases/ddakdama-brief.md) · [Yeosachin](docs/cases/pictory-brief.md) · [Clunk, earlier version](docs/cases/clunk-brief.md) — Korean
