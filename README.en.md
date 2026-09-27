@@ -1,108 +1,62 @@
-<sub>Park Junseong · Entry-level PM / PO / Service Planning</sub>
+<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="128" alt="Park Junseong" />
 
-# Helping people finish<br>what they set out to do.
+# Park Junseong · Associate PM (AI products)
 
-<img align="right" src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/portrait.jpg" width="144" alt="Park Junseong portrait" />
+I plan, ship, and run products with AI tools. On my own I built a weekly-ranking web game that is live, a Chrome extension in public beta, and a YouTube channel that Claude runs on a schedule. In a five-person bootcamp team project I own the survey and hypothesis testing.
 
-### Hello, I'm Junseong.
-
-Shopping recommendations still leave shopping to prepare. After a trip, choosing which near-duplicate photos to keep can feel like another chore. Even a short game is more fun when friends can compete on the same terms and show the result.
-
-These are the problems behind my products. With experience in market research and content planning, I define the problem, user flow and completion criteria, then use AI tools as implementation support and review the result.
-
-[Resume](docs/resume.en.md) · [Product cases, Korean](docs/cases/README.md) · [한국어](README.md)
+**[Resume PDF (Korean)](docs/pm-resume-ko.pdf)** · **[Portfolio PDF (Korean)](docs/pm-portfolio-ko.pdf)** · [Resume](docs/resume.en.md) · [한국어](README.ko.md) · junsuopar@gmail.com
 
 <br clear="all" />
 
----
-
-## Three problems, three products
-
-| Product | The job I want to make easier | What you can review |
-| --- | --- | --- |
-| **DdakDama** | Preparing a purchase after deciding what to buy | Comparison and cart-handoff flow, demo, public code |
-| **Yeosachin (formerly Pictory)** | Choosing which travel photos to keep after a trip | Redesigned recommendation, comparison and trip-album screens; preparing for release |
-| **Clunk** | Competing with friends on the same terms in a quick game and sharing the result | Two free weekly-ranking games live · clean external user count and retention not yet verified |
-
-## 01 · DdakDama
-### From a shopping recommendation to purchase preparation.
-
-**Why I built it.** Even after AI suggests a shopping list, people must search each item again, compare package sizes and prices, then fill a cart. I wanted to reduce the repeated work between the list and the store.
-
-<img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/ddakdama-compare.jpg" width="100%" alt="DdakDama implemented product-comparison screen" />
-<sub>Demo using implemented UI and sample product data.</sub>
-
-**The experience.** List input → candidate review → preflight → cart handoff and result review, across the web, GPTs and the Chrome extension as separate surfaces.
-
-**A product decision.** Speed is only useful when the cart contains the intended products. I separated product identity, package contents and purchase quantity, and kept uncertain candidates reviewable. Partial failure leaves a recovery path.
-
-**My contribution.** Problem framing, user flow, quantity and completion criteria, AI-assisted implementation and review. The connected flow and demo are available; purchase-preparation time and task completion are future user-study measures.
-
-[Case study, Korean](docs/cases/ddakdama.md) · [51-second demo](https://youtu.be/hpRkAGgw03c) · [Repository](https://github.com/Artemis-ignis/ddakdama)
+| 116 | 31 | 4,403 | 60 |
+| --- | --- | --- | --- |
+| clunk.games players this week (Sep 27; 119 all-time) | clunk.games deploys in 4 days · 331 automated checks before each deploy | views on 4 Shorts run by Claude (Sep 26) | LLM personas that pre-tested the team survey |
 
 ---
 
-## 02 · Yeosachin (formerly Pictory)
-### A friend who helps you choose your travel photos.
+## 01 · clunk.games · a live weekly-ranking web game
 
-**Why I am refocusing it.** After a trip, similar shots pile up. Comparing them one by one can delay making an album. I am narrowing Pictory's general photo-organization concept to a specific job: choosing the moments worth keeping from a trip.
+A new block set drops at midnight every day and every player stacks the same blocks. Three games (tower, puzzle, smash) run in Korean and English, and rankings reset every Monday.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/yeosachin-home.png" width="60%" alt="Yeosachin implemented travel-photo home screen" /></p>
-<sub>September 10, 2026 pre-release implementation. Actual home screen; the companion illustration is AI-generated brand artwork.</sub>
+<a href="https://clunk.games"><img src="https://raw.githubusercontent.com/Artemis-ignis/Artemis-ignis/main/docs/assets/pm-portfolio/clunk-games-home-20260927.jpg" width="100%" alt="clunk.games home" /></a>
 
-**The experience.** Select travel photos → review suggested and similar shots → keep favorites in a named trip album.
+- **Pivot decision.** Clunk launched as a game-asset tool. Measured revenue was zero, reaching US$1,000 a month against free asset packs needed about 143 paying subscribers, and four features competed on one home screen. On Sep 23 I turned the domain into a play-first game site. Four days later: 116 players and 508 ranked runs that week.
+- **Fair rankings.** Same block order for everyone each season; puzzle scores are recomputed on the server from replayed inputs; unusually high scores wait for review. After spotting one IP with 10 accounts and 60 ranked runs, I capped sign-ups at 5 per hour and 8 per day per IP. Site numbers are therefore not reported as clean external users.
+- **Incident.** On Sep 25 a query that re-read a week of records on every ranking view exceeded the free DB read quota and took the site down for about six hours. I moved rankings to a best-score table plus a daily snapshot and checked all 110 ranks against the old results before reopening.
 
-**A product decision.** Brightness and sharpness suggest candidates, not which memories matter. The user makes the final choice. Basic organization is free, without ad or AI-credit gates. Basic classification runs on-device; when the user explicitly chooses the AI path, selected ordinary photos are resized to 384px JPEG before being sent to Gemini for recommendation. Cloud backup and deletion of gallery originals are not offered.
+[Play →](https://clunk.games) · source is private
 
-**My contribution and current stage.** Product direction, user flow, free-tier and trust boundaries, AI-assisted implementation and review. Redesigned screens and core photo/album flows are implemented; the app is preparing for release. Real Toss-device permissions and file saving remain to be verified. Reduced selection effort is a hypothesis, not a measured outcome.
+## 02 · DdakDama · from a ChatGPT shopping list to a Coupang cart
 
-[Case study, Korean](docs/cases/pictory.md) · [Product brief, Korean](docs/cases/pictory-brief.md) · [Repository](https://github.com/Artemis-ignis/pictory-apps-in-toss)
+GPT-5.6 turns a chat into a shopping list; a Chrome extension paired by a 6-digit code finds Coupang candidates and adds them only after the user approves. It never handles payment or passwords.
 
----
+- A test caught the list parser reading "100mg, 240 tablets" as 240 items, so quantity decisions moved into rule-based code.
+- Items without a confirmed price are skipped; partial failures are listed separately.
+- 94 unit tests, Playwright E2E, 5 real Coupang products checked. No real-user test yet.
 
-## 03 · Clunk
-### A free web game where everyone stacks the same blocks each week.
+[Try without installing →](https://ddakdama.artemis-clunk.workers.dev/try) · [51s demo →](https://youtu.be/hpRkAGgw03c) · [Repo →](https://github.com/Artemis-ignis/ddakdama)
 
-**Why I built it.** Casual games are everywhere, but few give friends a fair way to compete and show off the result. Every Monday a new tower opens, everyone gets the same blocks in the same order, and each run ends with a shareable result image.
+## 03 · Bootcamp team project · hypothesis testing first
 
-**Why the product changed.** Clunk started as a tool for finding, inspecting and applying game assets. There was no measured revenue, a subscription competing with free asset packs would have needed too many paying users, and the home page asked visitors to choose between a marketplace, an inspector, AI creation and MCP at once. In September 2026 I turned clunk.games into a site of games you can play immediately, keeping the earlier asset features in place.
+Team REEZEN (5 people) tests whether Gen Z shoppers abandon online clothing purchases because they are unsure about fit and style.
 
-<a href="https://clunk.games/en"><img src="docs/assets/pm-portfolio/clunk-games-home-20260924.png" width="100%" alt="clunk.games home: Season #1 weekly ranking and the build-this-week's-tower button" /></a>
-<sub>Live site capture, September 24, 2026. Some game-card art is AI-generated.</sub>
+- Proposed NVIDIA's Nemotron Korean persona dataset (1M synthetic people based on official statistics). 60 personas answered the 13-question survey through an LLM simulation before launch; the mentor called it "really impressive."
+- Rebuilt the team survey from 13 sections to 7 and tied every question to one of five hypotheses; the revision became the final survey.
+- Ran a user interview and transcribed it locally with Whisper.
 
-**Product decisions.** Rankings only matter if conditions are fair: each season uses the same block order, unusually high scores are held for review, and Clunk Puzzle replays the move log on the server instead of trusting the client score. After the first public post I found one IP creating several accounts for ranked runs and added per-IP sign-up limits. Until a game rating is issued, the games run free and non-commercial, with no paid items or ads.
+## 04 · 어제의 나에게 · a YouTube Shorts channel run by Claude
 
-**My contribution.** The pivot decision; game rules, weekly ranking and fairness policy; the sharing flow and free-release scope; and review of AI-assisted game and site work. Season #1 is live. Right after a community post the site counted 61 new players, 49 distinct IPs and 208 ranked runs, but multi-account play is mixed in, so I do not claim a clean external user count or retention yet. There is no revenue.
+Claude reads a rules file and yesterday's notes, then writes, animates, uploads, and checks comments on a Mon/Wed/Fri + Sunday schedule. Episode 4 went up with no human edit. After a weak first episode I switched to code-driven character animation; episodes 2–4 each passed 1,100 views. [Channel →](https://www.youtube.com/@ignisbuilds)
 
-[Play this week's tower](https://clunk.games/en) · [Clunk Puzzle](https://clunk.games/puzzle) · [Earlier asset-tool case study, Korean](docs/cases/clunk.md)
+## 05 · Naver AI ad contest entry · 21.8 seconds
 
-<sub>Clunk source remains private; this portfolio presents shareable screens and product decisions.</sub>
+Made in two days and submitted as version 18. Codex images, Seedance 2.5 video, HyperFrames captions, and code-synthesized audio. When a key word sounded wrong, I traced it to a sound effect masking a syllable, moved it, and confirmed with Whisper. [Watch →](https://youtube.com/shorts/9ie83icRAOI)
 
----
+## Experience · education
 
-## Experience I bring to a team
-
-- **Research into execution:** at MetaChain, I worked on emerging-market research, internal education, proposals, content and launch materials.
-- **Ideas into working flows:** in personal projects, I define requirements, use AI tools to implement them, inspect the results and follow up on changes.
-- **Attention to practical constraints:** drawings, 3D modeling and assembly checks at LPK Robotics helped me understand the gap between intent and implementation.
-
-| Experience | Period |
+| Period | |
 | --- | --- |
-| MetaChain · game content planning and marketing | Jun 2022–May 2023 |
-| LPK Robotics · design intern | Aug–Sep 2024 |
-| Dongyang Mirae University · Business Information Systems, associate degree | Mar 2017–Feb 2023 |
-| FastCampus AI Product Manager Advanced Camp, Cohort 10 | In progress |
-
-I am seeking entry-level PM/PO and service-planning opportunities in AI, commerce and content. I want to extend my hands-on building experience through customer research, team collaboration and post-launch analysis.
-
-**How I use AI and evidence.** I own problem framing, user and priority decisions, completion criteria and quality judgment. AI tools assist with code, documents and visual material. I verify the result with browser, file and test evidence, and do not present unmeasured users, revenue, conversion or time savings as outcomes.
-
-[Read my resume →](docs/resume.en.md)
-
-<sub>Personal projects demonstrate planning, AI-assisted implementation and review. User growth, revenue and conversion will be added when measured.</sub>
-
-## Product briefs
-
-Reconstructed for this portfolio on September 10, 2026, using existing product screens and records. These describe requirements, scope reasoning and proposed validation, not historical PRDs or completed user studies.
-
-[DdakDama](docs/cases/ddakdama-brief.md) · [Yeosachin](docs/cases/pictory-brief.md) · [Clunk, earlier version](docs/cases/clunk-brief.md) — Korean
+| 2026.08 – 2026.11 | Fastcampus AI Product Manager Bootcamp (in progress) |
+| 2024.08 – 2024.09 | LPK Robotics · design intern |
+| 2022.06 – 2023.05 | MetaChain · game planning (blockchain game content, market research, pitch decks) |
+| 2017.03 – 2023.02 | Dongyang Mirae University · Management Information Systems (associate degree) |
