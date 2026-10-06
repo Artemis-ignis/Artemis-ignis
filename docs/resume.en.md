@@ -2,15 +2,15 @@
 
 junsuopar@gmail.com · [GitHub](https://github.com/Artemis-ignis) · [clunk.games](https://clunk.games) · [한국어](resume.ko.md)
 
-I plan, ship, and run products with AI tools: a live weekly-ranking web game, a Chrome extension in public beta, and a YouTube channel run by Claude, all built solo. In a five-person bootcamp team I own the survey and hypothesis testing.
+I plan, implement, and review three personal products with AI tools. In the ongoing REEZEN team project, I work on survey and interview evidence to revisit the problem hypothesis.
 
 ## Products
 
 ### clunk.games · live · solo · Aug 2026 – present
 Weekly-ranking web games (tower, puzzle, smash) where everyone plays the same daily blocks · Korean and English
-- **Pivot:** launched as a game-asset tool; with $0 measured revenue, ~143 paying subscribers needed for $1,000/month, and four features competing on the home screen, I switched to a play-first game site on Sep 23.
-- **Result:** 116 players and 508 ranked runs in the week after the switch (may include multi-accounts, so not reported as clean users).
-- **Fairness:** same block order per season, server-side score replay, review hold for outliers, per-IP sign-up cap after finding one IP with 10 accounts.
+- **Ranking and operations:** set weekly fairness rules, server-side score review, and abuse-response limits; after the Sep 25 outage, matched all 110 existing ranks before reopening.
+- **Site metric:** on Oct 6, the site showed 132 cumulative players who completed at least one ranked game; this week's leaderboard had no records yet. The count is not de-duplicated customers.
+- **Fairness:** same block order per season, server-side score replay, review hold for outliers, per-IP sign-up caps of five per hour and eight per day after finding one IP with 10 accounts.
 - **Incident:** a six-hour outage on Sep 25 from exceeding the free DB read quota; moved to a best-score table plus daily snapshot and matched all 110 ranks before reopening.
 
 ### DdakDama · public beta · solo · Jul 2026 – present
@@ -21,10 +21,14 @@ ChatGPT app + Chrome extension that turns a chat shopping list into a Coupang ca
 ### Bootcamp team project (REEZEN) · 5 people · Sep 2026 – present
 - Proposed NVIDIA Nemotron Korean personas; 60 LLM personas answered the 13-question survey before launch.
 - Rebuilt the survey from 13 sections to 7, each question tied to one of five hypotheses; adopted as final.
-- Ran and transcribed (Whisper, local) a user interview.
+- Personally conducted one of five team interviews and analyzed all five; held the conclusion open because the Oct 2 summary differed from the earlier analysis.
+- The mentor's suggested metric and narrower scope remain undecided by the team.
 
-### 어제의 나에게 · solo · Sep 2026 – present
-YouTube Shorts channel run by Claude on a schedule; episodes 2–4 each passed 1,100 views.
+### Yeosachin (formerly Pictory) · preparing for release · solo · Sep 2026 – present
+A travel-photo selection flow that helps users compare similar shots and save their own picks into an album.
+- Shows brightness, sharpness, and similar-photo candidates while leaving the final choice to the user.
+- Basic organization is free; photos are processed on-device.
+- UI and flow are implemented; Toss permissions/file saving, selection time, and repeat use remain untested.
 
 ### Naver AI ad contest entry · solo · Sep 2026
 21.8-second ad made in two days (version 18) with Codex, Seedance 2.5, HyperFrames, and code-synthesized audio.
